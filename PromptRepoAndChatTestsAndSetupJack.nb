@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     85720,       1666]
-NotebookOptionsPosition[     82215,       1596]
-NotebookOutlinePosition[     82621,       1612]
-CellTagsIndexPosition[     82578,       1609]
+NotebookDataLength[    208172,       3993]
+NotebookOptionsPosition[    201707,       3872]
+NotebookOutlinePosition[    202223,       3891]
+CellTagsIndexPosition[    202180,       3888]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1444,10 +1444,7 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
         TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$}], FrameStyle -> 
       None, ImageMargins -> 0, FrameMargins -> 0, Alignment -> Top, 
       ImageSize -> {Automatic, 15}], FontSize -> 1], 
-    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = 
-    TypeSystem`NestedGrid`PackagePrivate`$SliceMarker[
-    "b0c9bc30-32e4-4d66-b28d-87b56dcfbb00"][{
-      Key["FullTextAnnotations"]}, "RowHeader", False]}, 
+    TypeSystem`NestedGrid`PackagePrivate`mouseAnnotation$$ = Null}, 
     DynamicWrapperBox[
      DynamicBox[ToBoxes[
        Dataset`DatasetContent[
@@ -1480,122 +1477,2404 @@ lastPathIsLeafHeader, TypeSystem`NestedGrid`PackagePrivate`headerHidden$ = And[
   SelectWithContents->True,
   Selectable->False]], "Output",
  CellChangeTimes->{3.9010994222044797`*^9},
- CellLabel->"Out[28]=",ExpressionUUID->"7354766d-c287-44eb-a7b3-4b257d2a522b"],
+ CellLabel->"Out[28]=",ExpressionUUID->"7354766d-c287-44eb-a7b3-4b257d2a522b"]
+}, Open  ]],
 
-Cell["\<\
-It seems that you have provided a series of code inputs and outputs. How can \
-I assist you with this code?\
-\>", "AssistantOutput",
- CellFrame->0,
+Cell[CellGroupData[{
+
+Cell["chat objects", "Section",
+ CellChangeTimes->{{3.9011014938605723`*^9, 
+  3.901101497954692*^9}},ExpressionUUID->"c6f13028-7692-4cc6-ac27-\
+c545d2fb5072"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"chat", " ", "=", " ", 
+  RowBox[{
+  "ChatObject", "[", 
+   "\"\<Respond like a scientist. Keep your answers brief.\>\"", 
+   "]"}]}]], "Input",
+ CellLabel->"In[29]:=",ExpressionUUID->"ee946eeb-5ac9-4191-9afd-e115efba6c6c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["ChatObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GridBox[{{
+               TagBox[
+                TagBox[
+                 PaneBox[
+                  GraphicsBox[{
+                    Thickness[0.038461538461538464`], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGZigAFFB1RaBJmfkPZMCE0ezDc2LkbhA4ESGt8U
+mf9guZspqnkNMHkRNL4pMj8hzc0UVR5Cw8zDpe9dzX9FJH6DwoYiRVTz4P5B
+4Sc8XqqJJg+mD3zVEMEQBwCRvSeH
+                    "]]}, {
+                    FaceForm[
+                    RGBColor[1., 1., 1., 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQQOUgymDhCmGZjOZBBB5jdonhZEkxcA0g33/XtN
+kfgggM5XQuY7JDxVQDNPAc0+iLwJVByTLwDlayHLI7kfzJfP6jVFkwe7W+Hu
+ExT+g5r/ish8mPuhfLj/kMwzQ7PPzAEA5oooHw==
+                    "], {{21.00040054321289, 21.}, {21.00040054321289, 9.}, {
+                    13.00040054321289, 9.}, {12.649399757385254`, 9.}, {
+                    12.375399589538574`, 8.781000137329102}, {
+                    9.00040054321289, 6.081000328063965}, {9.00040054321289, 
+                    8.}, {9.00040054321289, 9.}, {8.00040054321289, 9.}, {
+                    5.000400543212891, 9.}, {5.000400543212891, 21.}, {
+                    21.00040054321289, 21.}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                   ImageSize -> {{27., 27.}, {27., 27.}}, 
+                   PlotRange -> {{-0.5, 26.5}, {-0.5, 26.5}}, AspectRatio -> 
+                   Automatic], AppearanceElements -> None, 
+                  Scrollbars -> {False, Automatic}, 
+                  ImageSize -> {{20, 600}, {20, 400}}, ContentPadding -> 
+                  False], Deploy, DefaultBaseStyle -> "Deploy"], 
+                "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GridBox[{{
+               TagBox[
+                TagBox[
+                 PaneBox[
+                  GraphicsBox[{
+                    Thickness[0.038461538461538464`], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGZigAFFB1RaBJmfkPZMCE0ezDc2LkbhA4ESGt8U
+mf9guZspqnkNMHkRNL4pMj8hzc0UVR5Cw8zDpe9dzX9FJH6DwoYiRVTz4P5B
+4Sc8XqqJJg+mD3zVEMEQBwCRvSeH
+                    "]]}, {
+                    FaceForm[
+                    RGBColor[1., 1., 1., 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQQOUgymDhCmGZjOZBBB5jdonhZEkxcA0g33/XtN
+kfgggM5XQuY7JDxVQDNPAc0+iLwJVByTLwDlayHLI7kfzJfP6jVFkwe7W+Hu
+ExT+g5r/ish8mPuhfLj/kMwzQ7PPzAEA5oooHw==
+                    "], {{21.00040054321289, 21.}, {21.00040054321289, 9.}, {
+                    13.00040054321289, 9.}, {12.649399757385254`, 9.}, {
+                    12.375399589538574`, 8.781000137329102}, {
+                    9.00040054321289, 6.081000328063965}, {9.00040054321289, 
+                    8.}, {9.00040054321289, 9.}, {8.00040054321289, 9.}, {
+                    5.000400543212891, 9.}, {5.000400543212891, 21.}, {
+                    21.00040054321289, 21.}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                   ImageSize -> {{27., 27.}, {27., 27.}}, 
+                   PlotRange -> {{-0.5, 26.5}, {-0.5, 26.5}}, AspectRatio -> 
+                   Automatic], AppearanceElements -> None, 
+                  Scrollbars -> {False, Automatic}, 
+                  ImageSize -> {{20, 600}, {20, 400}}, ContentPadding -> 
+                  False], Deploy, DefaultBaseStyle -> "Deploy"], 
+                "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  ChatObject[<|
+   "LLMEvaluator" -> 
+    LLMConfiguration[<|
+      "Model" -> Automatic, "Temperature" -> Automatic, 
+       "TotalProbabilityCutoff" -> Automatic, "Prompts" -> {}, 
+       "PromptDelimiter" -> "\n\n", "StopTokens" -> {}, "ToolMethod" -> 
+       Automatic, "Tools" -> {}|>, {}], 
+    "Messages" -> {<|
+      "Role" -> "System", "Content" -> 
+       "Respond like a scientist. Keep your answers brief.", 
+       "Annotations" -> <|{1, 50} -> "Prompt"|>, "Timestamp" -> 
+       DateObject[{2023, 8, 15, 17, 14, 32.4054568`9.263193049696289}, 
+         "Instant", "Gregorian", 2.]|>}, "ChatID" -> 
+    "a0c4b587-3665-49fa-b862-d7b7663eb9d3", "Authentication" -> Automatic, 
+    "History" -> {}, "Usage" -> 0, "Icon" -> Graphics[{
+       Thickness[0.038461538461538464`], 
+       Style[{
+         FilledCurve[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+          0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+          0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGZigAFFB1RaBJmfkPZMCE0ezDc2LkbhA4ESGt8U
+mf9guZspqnkNMHkRNL4pMj8hzc0UVR5Cw8zDpe9dzX9FJH6DwoYiRVTz4P5B
+4Sc8XqqJJg+mD3zVEMEQBwCRvSeH
+          "]]}, 
+        FaceForm[
+         RGBColor[1., 1., 1., 1.]]], 
+       Style[{
+         FilledCurve[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+          0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+          3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+          0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+          0}}}, {CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQQOUgymDhCmGZjOZBBB5jdonhZEkxcA0g33/XtN
+kfgggM5XQuY7JDxVQDNPAc0+iLwJVByTLwDlayHLI7kfzJfP6jVFkwe7W+Hu
+ExT+g5r/ish8mPuhfLj/kMwzQ7PPzAEA5oooHw==
+           "], {{21.00040054321289, 21.}, {21.00040054321289, 9.}, {
+           13.00040054321289, 9.}, {12.649399757385254`, 9.}, {
+           12.375399589538574`, 8.781000137329102}, {9.00040054321289, 
+           6.081000328063965}, {9.00040054321289, 8.}, {9.00040054321289, 
+           9.}, {8.00040054321289, 9.}, {5.000400543212891, 9.}, {
+           5.000400543212891, 21.}, {21.00040054321289, 21.}}}]}, 
+        FaceForm[
+         RGBColor[
+         0.5372549019607843, 0.5372549019607843, 0.5372549019607843, 1.]]]}, 
+      ImageSize -> {{27., 27.}, {27., 27.}}, 
+      PlotRange -> {{-0.5, 26.5}, {-0.5, 26.5}}, AspectRatio -> Automatic]|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.901101272445664*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"ab09cc88-9d0e-423e-9b96-1e7b57214064"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"chat", " ", "=", " ", 
+  RowBox[{"ChatEvaluate", "[", 
+   RowBox[{
+   "chat", ",", " ", "\"\<What is the oldest planet in the Solar System?\>\"",
+     ",", " ", 
+    RowBox[{"LLMEvaluator", "->", 
+     RowBox[{"<|", 
+      RowBox[{"\"\<Temperature\>\"", "->", "0"}], "|>"}]}]}], 
+   "]"}]}]], "Input",
+ CellLabel->"In[30]:=",ExpressionUUID->"0c606063-0f71-4982-a2db-b107f330c04a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["ChatObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            GridBox[{{
+               TagBox[
+                TagBox[
+                 PaneBox[
+                  FrameBox[
+                   TagBox[
+                    GridBox[{{
+                    FrameBox[
+                    StyleBox[
+                    GraphicsBox[{
+                    Thickness[0.038461538461538464`], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGZigIIGBQcUmkEEmV8gECGEJi8Iol26dRSR+UCg
+hMY3ReZ/+J1pimreAZi8CBrfFJkP04eQxyWOqu9dzX9FZL4RB8S9CH1w/6Dw
+F3y8pIkqD6UbRYUwxAFRLy5n
+                    "]]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.49019607843137253`, 0.8235294117647058, 1., 1.]]}, 
+                    StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQGmDhDaDEqLIPMbDpwSRJMXANIN9/17TZH4yObA
++ErIfIeEpwpo5img2adAgIaZq4UmborMR3IXTB7sboW7T1D4D2r+K6L5Czkc
+4P5DMg9THQC6JyON
+                    "], CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQGmDmCqAUx/WO6GwsctjqrvQc1/RWR+QspuEL9B
+YUMRmO/wsAosv39+FJjfcMALzL/s6wTmH5gvBeIfuOSrBDNfEdUeOF8LmZ+Q
+tkwTmd/gmADhrzuugKLvm4YImjkKaHxc4qj6Ep4KocmD+Q4bilD4QKCExjdF
+5sPDE24ePFxF0PiIcAYAYyg58Q==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.18823529411764706`, 0.49411764705882355`, 
+                    0.6549019607843137, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{27., 27.}, {27., 27.}}, 
+                    PlotRange -> {{-0.5, 26.5}, {-0.5, 26.5}}, AspectRatio -> 
+                    Automatic], "InformationTitleText", StripOnInput -> 
+                    False], ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False], 
+                    FrameBox[
+                    StyleBox[
+                    TagBox[
+                    "\"What is the oldest planet in the Solar System?\"", 
+                    BoxForm`Undeploy, 
+                    DefaultBaseStyle -> {Deployed -> False}], LineIndent -> 0,
+                     LinebreakAdjustments -> {1, 10, 1, 0, 10}, Editable -> 
+                    False, StripOnInput -> False], 
+                    ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False], 
+                    FrameBox[
+                    ButtonBox[
+                    
+                    DynamicModuleBox[{
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$ = False, 
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$ = False}, 
+                    TagBox[
+                    PaneSelectorBox[{"Default" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0, 0], 
+                    StripOnInput -> False], "Hover" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0., 0.08], 
+                    StripOnInput -> False], "Pressed" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0., 0.15], 
+                    StripOnInput -> False]}, 
+                    Dynamic[
+                    FEPrivate`Which[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, "Pressed", 
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, "Hover", 
+                    True, "Default"]]], 
+                    
+                    EventHandlerTag[{
+                    "MouseDown" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, True], 
+                    "MouseUp" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, False], 
+                    "MouseEntered" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, True], 
+                    "MouseExited" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, False], 
+                    PassEventsDown -> True, Method -> "Preemptive", 
+                    PassEventsUp -> True}]], DynamicModuleValues :> {}], 
+                    ButtonFunction :> 
+                    CopyToClipboard[
+                    "What is the oldest planet in the Solar System?"], 
+                    Appearance -> {
+                    "Default" -> 
+                    FrontEnd`FileName[{"Misc"}, "TransparentBG.9.png"]}, 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False]}, {
+                    FrameBox[
+                    StyleBox[
+                    GraphicsBox[{
+                    Thickness[0.038461538461538464`], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGZigAFFB1RaBJmfkPZMCE0ezDc2LkbhA4ESGt8U
+mf9guZspqnkNMHkRNL4pMj8hzc0UVR5Cw8zDpe9dzX9FJH6DwoYiRVTz4P5B
+4Sc8XqqJJg+mD3zVEMEQBwCRvSeH
+                    "]]}, {
+                    FaceForm[
+                    RGBColor[1., 1., 1., 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQQOUgymDhCmGZjOZBBB5jdonhZEkxcA0g33/XtN
+kfgggM5XQuY7JDxVQDNPAc0+iLwJVByTLwDlayHLI7kfzJfP6jVFkwe7W+Hu
+ExT+g5r/ish8mPuhfLj/kMwzQ7PPzAEA5oooHw==
+                    "], {{21.00040054321289, 21.}, {21.00040054321289, 9.}, {
+                    13.00040054321289, 9.}, {12.649399757385254`, 9.}, {
+                    12.375399589538574`, 8.781000137329102}, {
+                    9.00040054321289, 6.081000328063965}, {9.00040054321289, 
+                    8.}, {9.00040054321289, 9.}, {8.00040054321289, 9.}, {
+                    5.000400543212891, 9.}, {5.000400543212891, 21.}, {
+                    21.00040054321289, 21.}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{27., 27.}, {27., 27.}}, 
+                    PlotRange -> {{-0.5, 26.5}, {-0.5, 26.5}}, AspectRatio -> 
+                    Automatic], "InformationTitleText", StripOnInput -> 
+                    False], ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False], 
+                    FrameBox[
+                    StyleBox[
+                    TagBox[
+                    "\"The oldest planet in the Solar System is believed to \
+be Jupiter.\"", BoxForm`Undeploy, DefaultBaseStyle -> {Deployed -> False}], 
+                    LineIndent -> 0, 
+                    LinebreakAdjustments -> {1, 10, 1, 0, 10}, Editable -> 
+                    False, StripOnInput -> False], 
+                    ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False], 
+                    FrameBox[
+                    ButtonBox[
+                    
+                    DynamicModuleBox[{
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$ = False, 
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$ = False}, 
+                    TagBox[
+                    PaneSelectorBox[{"Default" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0, 0], 
+                    StripOnInput -> False], "Hover" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0., 0.08], 
+                    StripOnInput -> False], "Pressed" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0., 0.15], 
+                    StripOnInput -> False]}, 
+                    Dynamic[
+                    FEPrivate`Which[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, "Pressed", 
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, "Hover", 
+                    True, "Default"]]], 
+                    
+                    EventHandlerTag[{
+                    "MouseDown" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, True], 
+                    "MouseUp" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, False], 
+                    "MouseEntered" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, True], 
+                    "MouseExited" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, False], 
+                    PassEventsDown -> True, Method -> "Preemptive", 
+                    PassEventsUp -> True}]], DynamicModuleValues :> {}], 
+                    ButtonFunction :> 
+                    CopyToClipboard[
+                    "The oldest planet in the Solar System is believed to be \
+Jupiter."], Appearance -> {
+                    "Default" -> 
+                    FrontEnd`FileName[{"Misc"}, "TransparentBG.9.png"]}, 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{
+                    GrayLevel[1], Null}}}, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{None}}, "Rows" -> {None, {
+                    GrayLevel[0, 0.05]}, None}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0}}, "Rows" -> {{0}}}, 
+                    BaseStyle -> "Text"], "Grid"], FrameMargins -> 0, 
+                   FrameStyle -> GrayLevel[0, 0.05], RoundingRadius -> 1.5, 
+                   StripOnInput -> False], AppearanceElements -> None, 
+                  Scrollbars -> {False, Automatic}, 
+                  ImageSize -> {{20, 600}, {20, 400}}, ContentPadding -> 
+                  False], Deploy, DefaultBaseStyle -> "Deploy"], 
+                "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            GridBox[{{
+               TagBox[
+                TagBox[
+                 PaneBox[
+                  FrameBox[
+                   TagBox[
+                    GridBox[{{
+                    FrameBox[
+                    StyleBox[
+                    GraphicsBox[{
+                    Thickness[0.038461538461538464`], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGZigIIGBQcUmkEEmV8gECGEJi8Iol26dRSR+UCg
+hMY3ReZ/+J1pimreAZi8CBrfFJkP04eQxyWOqu9dzX9FZL4RB8S9CH1w/6Dw
+F3y8pIkqD6UbRYUwxAFRLy5n
+                    "]]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.49019607843137253`, 0.8235294117647058, 1., 1.]]}, 
+                    StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQGmDhDaDEqLIPMbDpwSRJMXANIN9/17TZH4yObA
++ErIfIeEpwpo5img2adAgIaZq4UmborMR3IXTB7sboW7T1D4D2r+K6L5Czkc
+4P5DMg9THQC6JyON
+                    "], CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQGmDmCqAUx/WO6GwsctjqrvQc1/RWR+QspuEL9B
+YUMRmO/wsAosv39+FJjfcMALzL/s6wTmH5gvBeIfuOSrBDNfEdUeOF8LmZ+Q
+tkwTmd/gmADhrzuugKLvm4YImjkKaHxc4qj6Ep4KocmD+Q4bilD4QKCExjdF
+5sPDE24ePFxF0PiIcAYAYyg58Q==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.18823529411764706`, 0.49411764705882355`, 
+                    0.6549019607843137, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{27., 27.}, {27., 27.}}, 
+                    PlotRange -> {{-0.5, 26.5}, {-0.5, 26.5}}, AspectRatio -> 
+                    Automatic], "InformationTitleText", StripOnInput -> 
+                    False], ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False], 
+                    FrameBox[
+                    StyleBox[
+                    TagBox[
+                    "\"What is the oldest planet in the Solar System?\"", 
+                    BoxForm`Undeploy, 
+                    DefaultBaseStyle -> {Deployed -> False}], LineIndent -> 0,
+                     LinebreakAdjustments -> {1, 10, 1, 0, 10}, Editable -> 
+                    False, StripOnInput -> False], 
+                    ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False], 
+                    FrameBox[
+                    ButtonBox[
+                    
+                    DynamicModuleBox[{
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$ = False, 
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$ = False}, 
+                    TagBox[
+                    PaneSelectorBox[{"Default" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0, 0], 
+                    StripOnInput -> False], "Hover" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0., 0.08], 
+                    StripOnInput -> False], "Pressed" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0., 0.15], 
+                    StripOnInput -> False]}, 
+                    Dynamic[
+                    FEPrivate`Which[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, "Pressed", 
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, "Hover", 
+                    True, "Default"]]], 
+                    
+                    EventHandlerTag[{
+                    "MouseDown" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, True], 
+                    "MouseUp" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, False], 
+                    "MouseEntered" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, True], 
+                    "MouseExited" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, False], 
+                    PassEventsDown -> True, Method -> "Preemptive", 
+                    PassEventsUp -> True}]], DynamicModuleValues :> {}], 
+                    ButtonFunction :> 
+                    CopyToClipboard[
+                    "What is the oldest planet in the Solar System?"], 
+                    Appearance -> {
+                    "Default" -> 
+                    FrontEnd`FileName[{"Misc"}, "TransparentBG.9.png"]}, 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False]}, {
+                    FrameBox[
+                    StyleBox[
+                    GraphicsBox[{
+                    Thickness[0.038461538461538464`], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGZigAFFB1RaBJmfkPZMCE0ezDc2LkbhA4ESGt8U
+mf9guZspqnkNMHkRNL4pMj8hzc0UVR5Cw8zDpe9dzX9FJH6DwoYiRVTz4P5B
+4Sc8XqqJJg+mD3zVEMEQBwCRvSeH
+                    "]]}, {
+                    FaceForm[
+                    RGBColor[1., 1., 1., 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 
+                    3}, {0, 1, 0}, {1, 3, 3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQQOUgymDhCmGZjOZBBB5jdonhZEkxcA0g33/XtN
+kfgggM5XQuY7JDxVQDNPAc0+iLwJVByTLwDlayHLI7kfzJfP6jVFkwe7W+Hu
+ExT+g5r/ish8mPuhfLj/kMwzQ7PPzAEA5oooHw==
+                    "], {{21.00040054321289, 21.}, {21.00040054321289, 9.}, {
+                    13.00040054321289, 9.}, {12.649399757385254`, 9.}, {
+                    12.375399589538574`, 8.781000137329102}, {
+                    9.00040054321289, 6.081000328063965}, {9.00040054321289, 
+                    8.}, {9.00040054321289, 9.}, {8.00040054321289, 9.}, {
+                    5.000400543212891, 9.}, {5.000400543212891, 21.}, {
+                    21.00040054321289, 21.}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{27., 27.}, {27., 27.}}, 
+                    PlotRange -> {{-0.5, 26.5}, {-0.5, 26.5}}, AspectRatio -> 
+                    Automatic], "InformationTitleText", StripOnInput -> 
+                    False], ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False], 
+                    FrameBox[
+                    StyleBox[
+                    TagBox[
+                    "\"The oldest planet in the Solar System is believed to \
+be Jupiter.\"", BoxForm`Undeploy, DefaultBaseStyle -> {Deployed -> False}], 
+                    LineIndent -> 0, 
+                    LinebreakAdjustments -> {1, 10, 1, 0, 10}, Editable -> 
+                    False, StripOnInput -> False], 
+                    ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False], 
+                    FrameBox[
+                    ButtonBox[
+                    
+                    DynamicModuleBox[{
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$ = False, 
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$ = False}, 
+                    TagBox[
+                    PaneSelectorBox[{"Default" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0, 0], 
+                    StripOnInput -> False], "Hover" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0., 0.08], 
+                    StripOnInput -> False], "Pressed" -> FrameBox[
+                    GraphicsBox[{
+                    Thickness[0.1], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 7.186999797821045}, {7.000999927520752, 
+                    7.186999797821045}, {7.000999927520752, 7.875}, {3., 
+                    7.875}, {3., 7.186999797821045}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 5.313000202178955}, {7.000999927520752, 
+                    5.313000202178955}, {7.000999927520752, 
+                    6.00100040435791}, {3., 6.00100040435791}, {3., 
+                    5.313000202178955}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}}, {{{3., 3.437000036239624}, {7.000999927520752, 
+                    3.437000036239624}, {7.000999927520752, 4.125}, {3., 
+                    4.125}, {3., 3.437000036239624}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    7.667099952697754, 10.62540054321289}, {7.667099952697754,
+                     9.93740051984787}, {8.333099961280823, 
+                    9.93740051984787}, {8.333099961280823, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    1.6874008178710938`}, {1.667099952697754, 
+                    9.93740051984787}, {2.334099769592285, 
+                    9.93740051984787}, {2.334099769592285, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    10.62540054321289}, {1.0001001358032227`, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    0.9994001388549805}, {9.000099897384644, 
+                    10.62540054321289}, {7.667099952697754, 
+                    10.62540054321289}}}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False], 
+                    StyleBox[{
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}}, {{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+                    0}, {1, 3, 3}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}}}, {{{
+                    3.6673998832702637`, 9.937499046325684}, {
+                    6.332399845123291, 9.937499046325684}, {5.999399900436401,
+                     10.624499082565308`}, {4.000399887561798, 
+                    10.624499082565308`}, {3.6673998832702637`, 
+                    9.937499046325684}}, CompressedData["
+1:eJxTTMoPSmViYGCQBmIQDQQF885yOADpR1rqyiA64PBldhCdO70PzH+gvxvM
+375YQAVEK1hNAqv/rVcL5rOY2XCD6JaCu6og2mmaIg+IjrEPVQPRIjv/8ILo
+L00LwPwrGQwCYHP/zwfzT6SFCmLjZzgyaIDoAymrxLDxYeo3JP0XR+Z/yGOU
+RLbP4ddbSWT3NGxIlALR0z5D3Ltgy3ZpZP84LImXAdIOk+aeB/v/Q841sPw1
+jT9KIHpCeytY/wy5pWC+go8amK/U3QPmL7i/TxLi3gYIPyEEhX/gahgvMt9i
+fy04/ML21YP5PrlHOUG00Y59YD5K/AAAzspraA==
+                    "]}]}, {
+                    FaceForm[
+                    RGBColor[
+                    0.5372549019607843, 0.5372549019607843, 
+                    0.5372549019607843, 1.]]}, StripOnInput -> False]}, 
+                    ImageSize -> {{11., 14.}, {11., 14.}}, 
+                    PlotRange -> {{-0.5, 10.5}, {-0.5, 13.5}}, AspectRatio -> 
+                    Automatic], FrameStyle -> None, RoundingRadius -> 5, 
+                    FrameMargins -> 5, Background -> GrayLevel[0., 0.15], 
+                    StripOnInput -> False]}, 
+                    Dynamic[
+                    FEPrivate`Which[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, "Pressed", 
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, "Hover", 
+                    True, "Default"]]], 
+                    
+                    EventHandlerTag[{
+                    "MouseDown" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, True], 
+                    "MouseUp" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseDown$$, False], 
+                    "MouseEntered" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, True], 
+                    "MouseExited" :> 
+                    FEPrivate`Set[
+                    Wolfram`LLMFunctions`Chat`Private`mouseHover$$, False], 
+                    PassEventsDown -> True, Method -> "Preemptive", 
+                    PassEventsUp -> True}]], DynamicModuleValues :> {}], 
+                    ButtonFunction :> 
+                    CopyToClipboard[
+                    "The oldest planet in the Solar System is believed to be \
+Jupiter."], Appearance -> {
+                    "Default" -> 
+                    FrontEnd`FileName[{"Misc"}, "TransparentBG.9.png"]}, 
+                    Evaluator -> Automatic, Method -> "Preemptive"], 
+                    ImageMargins -> {{0, 0}, {0, 0}}, 
+                    FrameMargins -> {{10, 10}, {10, 10}}, FrameStyle -> None, 
+                    Alignment -> {Left, Top}, BaselinePosition -> Baseline, 
+                    Background -> None, StripOnInput -> False]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{
+                    GrayLevel[1], Null}}}, 
+                    GridBoxDividers -> {
+                    "Columns" -> {{None}}, "Rows" -> {None, {
+                    GrayLevel[0, 0.05]}, None}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0}}, "Rows" -> {{0}}}, 
+                    BaseStyle -> "Text"], "Grid"], FrameMargins -> 0, 
+                   FrameStyle -> GrayLevel[0, 0.05], RoundingRadius -> 1.5, 
+                   StripOnInput -> False], AppearanceElements -> None, 
+                  Scrollbars -> {False, Automatic}, 
+                  ImageSize -> {{20, 600}, {20, 400}}, ContentPadding -> 
+                  False], Deploy, DefaultBaseStyle -> "Deploy"], 
+                "SummaryItem"]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  ChatObject[<|
+   "LLMEvaluator" -> 
+    LLMConfiguration[<|
+      "Model" -> Automatic, "Temperature" -> 0, "TotalProbabilityCutoff" -> 
+       Automatic, "Prompts" -> {}, "PromptDelimiter" -> "\n\n", 
+       "StopTokens" -> {}, "ToolMethod" -> Automatic, "Tools" -> {}|>, {}], 
+    "Messages" -> {<|
+      "Role" -> "System", "Content" -> 
+       "Respond like a scientist. Keep your answers brief.", 
+       "Annotations" -> <|{1, 50} -> "Prompt"|>, "Timestamp" -> 
+       DateObject[{2023, 8, 15, 17, 14, 32.4054568`9.263193049696289}, 
+         "Instant", "Gregorian", 2.]|>, <|
+      "Role" -> "User", "Content" -> 
+       "What is the oldest planet in the Solar System?", "Timestamp" -> 
+       DateObject[{2023, 8, 15, 17, 14, 45.398637`9.409617680682087}, 
+         "Instant", "Gregorian", 2.], 
+       "Annotations" -> <|{1, 46} -> "Prompt"|>|>, <|
+      "Role" -> "Assistant", "Content" -> 
+       "The oldest planet in the Solar System is believed to be Jupiter.", 
+       "FinishReason" -> "Stop", "Timestamp" -> 
+       DateObject[{2023, 8, 15, 17, 14, 46}, "Instant", "Gregorian", 2.], 
+       "Annotations" -> <|{1, 64} -> "Completion"|>|>}, "ChatID" -> 
+    "a0c4b587-3665-49fa-b862-d7b7663eb9d3", 
+    "History" -> {<|
+      "id" -> "chatcmpl-7nq2o58B6t3UBUiPjcxWyx4iXthBE", "object" -> 
+       "chat.completion", "created" -> 1692112486, "model" -> 
+       "gpt-3.5-turbo-0613", 
+       "usage" -> <|
+        "prompt_tokens" -> 31, "completion_tokens" -> 13, "total_tokens" -> 
+         44|>|>}, "Usage" -> 44, "Icon" -> Graphics[{
+       Thickness[0.038461538461538464`], 
+       Style[{
+         FilledCurve[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+          0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+          0}}}, CompressedData["
+1:eJxTTMoPSmVmYGBgBGIRIGZigAFFB1RaBJmfkPZMCE0ezDc2LkbhA4ESGt8U
+mf9guZspqnkNMHkRNL4pMj8hzc0UVR5Cw8zDpe9dzX9FJH6DwoYiRVTz4P5B
+4Sc8XqqJJg+mD3zVEMEQBwCRvSeH
+          "]]}, 
+        FaceForm[
+         RGBColor[1., 1., 1., 1.]]], 
+       Style[{
+         FilledCurve[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 
+          0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 
+          3}}, {{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+          0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+          0}}}, {CompressedData["
+1:eJxTTMoPSmViYGAQAWIQDQQOUgymDhCmGZjOZBBB5jdonhZEkxcA0g33/XtN
+kfgggM5XQuY7JDxVQDNPAc0+iLwJVByTLwDlayHLI7kfzJfP6jVFkwe7W+Hu
+ExT+g5r/ish8mPuhfLj/kMwzQ7PPzAEA5oooHw==
+           "], {{21.00040054321289, 21.}, {21.00040054321289, 9.}, {
+           13.00040054321289, 9.}, {12.649399757385254`, 9.}, {
+           12.375399589538574`, 8.781000137329102}, {9.00040054321289, 
+           6.081000328063965}, {9.00040054321289, 8.}, {9.00040054321289, 
+           9.}, {8.00040054321289, 9.}, {5.000400543212891, 9.}, {
+           5.000400543212891, 21.}, {21.00040054321289, 21.}}}]}, 
+        FaceForm[
+         RGBColor[
+         0.5372549019607843, 0.5372549019607843, 0.5372549019607843, 1.]]]}, 
+      ImageSize -> {{27., 27.}, {27., 27.}}, 
+      PlotRange -> {{-0.5, 26.5}, {-0.5, 26.5}}, AspectRatio -> Automatic], 
+    "Model" -> "gpt-3.5-turbo", "Temperature" -> 0, "TotalProbabilityCutoff" -> 
+    Automatic, "StopTokens" -> {}|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.901101286588002*^9},
+ CellLabel->"Out[30]=",ExpressionUUID->"5d4c3826-ff22-4ed9-bb03-ff7ff48946c6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"chat", "[", "\"\<Properties\>\"", "]"}]], "Input",
+ CellLabel->"In[31]:=",ExpressionUUID->"c09e7c15-9016-41b2-b2ff-dd66ae8fcac2"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"ChatID\"\>", ",", "\<\"FullText\"\>", 
+   ",", "\<\"LLMEvaluator\"\>", ",", "\<\"Messages\"\>", 
+   ",", "\<\"Properties\"\>", ",", "\<\"Usage\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.9011013274843435`*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"36bfd6b4-0a42-4055-a7b3-5953da7b7a37"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"chat", "[", "\"\<Messages\>\"", "]"}]], "Input",
+ CellLabel->"In[32]:=",ExpressionUUID->"a36d6d06-b4a7-497f-a442-1bdaa68001a7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Role\"\>", "\[Rule]", "\<\"System\"\>"}], ",", 
+     RowBox[{"\<\"Content\"\>", 
+      "\[Rule]", "\<\"Respond like a scientist. Keep your answers \
+brief.\"\>"}], ",", 
+     RowBox[{"\<\"Annotations\"\>", "\[Rule]", 
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "50"}], "}"}], "\[Rule]", "\<\"Prompt\"\>"}], 
+       "\[RightAssociation]"}]}], ",", 
+     RowBox[{"\<\"Timestamp\"\>", "\[Rule]", 
+      TemplateBox[{
+        RowBox[{"\"Tue 15 Aug 2023 17:14:32\"", 
+          StyleBox[
+           RowBox[{"\"GMT\"", "\[InvisibleSpace]", "+", "\[InvisibleSpace]", 
+             StyleBox["2", NumberMarks -> False, StripOnInput -> False]}], 
+           FontColor -> GrayLevel[0.5]]}], 
+        RowBox[{"DateObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              
+              RowBox[{"2023", ",", "8", ",", "15", ",", "17", ",", "14", ",", 
+                "32.4054568`9.263193049696289"}], "}"}], ",", "\"Instant\"", 
+            ",", "\"Gregorian\"", ",", "2.`"}], "]"}]},
+       "DateObject",
+       Editable->False]}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Role\"\>", "\[Rule]", "\<\"User\"\>"}], ",", 
+     RowBox[{"\<\"Content\"\>", 
+      "\[Rule]", "\<\"What is the oldest planet in the Solar System?\"\>"}], 
+     ",", 
+     RowBox[{"\<\"Timestamp\"\>", "\[Rule]", 
+      TemplateBox[{
+        RowBox[{"\"Tue 15 Aug 2023 17:14:45\"", 
+          StyleBox[
+           RowBox[{"\"GMT\"", "\[InvisibleSpace]", "+", "\[InvisibleSpace]", 
+             StyleBox["2", NumberMarks -> False, StripOnInput -> False]}], 
+           FontColor -> GrayLevel[0.5]]}], 
+        RowBox[{"DateObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              
+              RowBox[{"2023", ",", "8", ",", "15", ",", "17", ",", "14", ",", 
+                "45.398637`9.409617680682087"}], "}"}], ",", "\"Instant\"", 
+            ",", "\"Gregorian\"", ",", "2.`"}], "]"}]},
+       "DateObject",
+       Editable->False]}], ",", 
+     RowBox[{"\<\"Annotations\"\>", "\[Rule]", 
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "46"}], "}"}], "\[Rule]", "\<\"Prompt\"\>"}], 
+       "\[RightAssociation]"}]}]}], "\[RightAssociation]"}], ",", 
+   RowBox[{"\[LeftAssociation]", 
+    RowBox[{
+     RowBox[{"\<\"Role\"\>", "\[Rule]", "\<\"Assistant\"\>"}], ",", 
+     RowBox[{"\<\"Content\"\>", 
+      "\[Rule]", "\<\"The oldest planet in the Solar System is believed to be \
+Jupiter.\"\>"}], ",", 
+     RowBox[{"\<\"FinishReason\"\>", "\[Rule]", "\<\"Stop\"\>"}], ",", 
+     RowBox[{"\<\"Timestamp\"\>", "\[Rule]", 
+      TemplateBox[{
+        RowBox[{"\"Tue 15 Aug 2023 17:14:46\"", 
+          StyleBox[
+           RowBox[{"\"GMT\"", "\[InvisibleSpace]", "+", "\[InvisibleSpace]", 
+             StyleBox["2", NumberMarks -> False, StripOnInput -> False]}], 
+           FontColor -> GrayLevel[0.5]]}], 
+        RowBox[{"DateObject", "[", 
+          RowBox[{
+            RowBox[{"{", 
+              
+              RowBox[{"2023", ",", "8", ",", "15", ",", "17", ",", "14", ",", 
+                "46"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"", ",", 
+            "2.`"}], "]"}]},
+       "DateObject",
+       Editable->False]}], ",", 
+     RowBox[{"\<\"Annotations\"\>", "\[Rule]", 
+      RowBox[{"\[LeftAssociation]", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", "64"}], "}"}], "\[Rule]", "\<\"Completion\"\>"}], 
+       "\[RightAssociation]"}]}]}], "\[RightAssociation]"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.9011013298577538`*^9},
+ CellLabel->"Out[32]=",ExpressionUUID->"d81072ff-bd0e-4fc7-bb14-3b7942d352e2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"chat", "[", "\"\<Usage\>\"", "]"}]], "Input",
+ CellLabel->"In[33]:=",ExpressionUUID->"feff66fb-bcfa-4b68-b5b4-49e198bea1bc"],
+
+Cell[BoxData[
+ TemplateBox[{"44", 
+   RowBox[{
+     FrameBox[
+      StyleBox[
+      "\"Tokens\"", ShowStringCharacters -> False, StripOnInput -> False], 
+      FrameMargins -> 1, FrameStyle -> GrayLevel[0.85], BaselinePosition -> 
+      Baseline, RoundingRadius -> 3, StripOnInput -> False]}], "Tokens", 
+   RowBox[{"IndependentUnit", "[", "\"Tokens\"", "]"}]},
+  "Quantity"]], "Output",
+ CellChangeTimes->{3.9011013348945*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"f4cfce84-484d-48ca-b8cd-2c5fd4d4dd79"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"chat", "[", "\"\<ChatID\>\"", "]"}]], "Input",
+ CellLabel->"In[34]:=",ExpressionUUID->"743e12b1-6844-4e52-b002-c1f821fd6dc3"],
+
+Cell[BoxData["\<\"a0c4b587-3665-49fa-b862-d7b7663eb9d3\"\>"], "Output",
+ CellChangeTimes->{3.901101337564622*^9},
+ CellLabel->"Out[34]=",ExpressionUUID->"e3bbcb06-6249-4480-98d6-75668d7b8aa2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["chatbooks cont\[CloseCurlyQuote]d", "Section",
+ CellChangeTimes->{{3.9011015843783536`*^9, 
+  3.9011015873951197`*^9}},ExpressionUUID->"020026b1-8d5e-466c-a0a3-\
+8ee318bf8f5f"],
+
+Cell[CellGroupData[{
+
+Cell["Complete this code: If[x>0, \"greater than zero\", ..]", "ChatInput",
+ CellDingbat->Cell[
+   BoxData[
+    TemplateBox[{}, "ChatInputCellDingbat"]], Background -> None],
+ CellChangeTimes->{{3.901101692426841*^9, 3.9011017145679193`*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"d3b6d7bf-488c-4033-ae65-8d347154d2fd"],
+
+Cell["If[x > 0, \"greater than zero\", \"less than or equal to zero\"]", \
+"ChatOutput",
  CellDingbat->Cell[
    BoxData[
     PaneBox[
-     TemplateBox[{}, "ChatIconCodeAssistant"], ContentPadding -> False, 
+     TemplateBox[{}, "ChatIconCodeWriter"], ContentPadding -> False, 
      FrameMargins -> 0, ImageSize -> {35, 35}, ImageSizeAction -> 
      "ShrinkToFit", Alignment -> {Center, Center}]], Background -> None],
- ShowCellBracket->False,
- CellMargins->-2,
- CellOpen->False,
  TaggingRules-><|
   "CellToStringData" -> 
-   "It seems that you have provided a series of code inputs and outputs. How \
-can I assist you with this code?", "MessageTag" -> "[INFO]", "ChatData" -> 
-   "OEM6eJy9Wk9zHMd1NyWKFNahLKWUSlmn5lhlkfJiSUKm+\
-SemWCsQoNYECBgDBWGBENE707s7xsz0unsGiw2lD5C7L8kx19xyy8fJxSdX+\
-Sv4915Pz84uQEAuM0GxwN2e7vdev/d7fwfdf1wOW11rE1vIPFJ2qVsWOpNFEtE6Pq9rg6/\
-28q4pFZa+klZtG52Ni7mt11dHsljVeaFOilWVptgCYjbJh+tlHhWJzt+4fVvbYu1YpqWkbWdu/\
-7i53ajxaf5/\
-TzuemORY5c91ofpaH9n31mVqIfNH9OxrXFCb6YbKh8Vo9adYfTLNZZZEjTs2CX64btTvS5VH022Vy7\
-SYmv/4d/r5n8fL4Qe9PErLWFU0584tbcqTXX2kcju3fG1TmaHahErkEL8qbb63qWOVhteG42L5i87d\
-5aI0fb0c/gR3tGCtTrO+Fo70ZDPJkyz5VxXPsfjxrsrGykgQUWbAP3/Eib/\
-b1Tq1a7nspzjgdXJ5V4+3Vy9BBH48uGovb+\
-A2g3fs1Y2NTVrrXsGu5zJT4cexjspM5QUb6FUK3ZZj8HuS2HEqp27Pk+YesVHtudyLdD64ZN/\
-fkZOv9ImyYMByprJQWBj8yPENP95WxupczpEhHspGJhnTt/\
-DuU1WIOVnEmLQpBtqIPZ0OjMzEhsyHJVaFnWZ93KwDzG5LPFEFOEAUf8/LO2WqwveAAWW774JVD/\
-AyY0P78PijJyqFkgsVhw4HKvyHiodnETKH8FIb9/xapePw/\
-lauBGTJtFFvFEhYNYY8ICz6UxHpLJN2OXx/B1wSAwtV0Hi/\
-doSVitIhwZiAfcgmO9wG2kHmcE4jTvFerT/\
-EnFZJE43ON2dY7Xmr5vzDJUf2tKbmbUzW9bqTecza7Yh1naZ6IsqxcBcQcJkyLayYJMVIFKNFKg61o\
-oAq8EsMASXaNCjTVCT5gAMA9l0EF0DBTBfhEl4JC4NQ53Gw0hWWFwTFKnLlgr7IBZEqwZnk20OAU+\
-q5CLg2cfReyXQ8kgumv+bN0XUPz7L51W2Zs70v2VYVRunbO/\
-aT9TUv1LpBvF7L4x1ldWngPkvra18lRSbHlgKoVYakZSZevfZDyi5pkivkhIQe10+\
-urCrSNxheCSOJSFbFxP99vICq/\
-7r0jVUipygoU5F6SJGSE1Who7rhd8zcowHhqtDLMUQnpxyXTpug4YEl+\
-7osBNmyIEpJLqKRyqBjM22L8Whqk8i2QUoPjcTXthi59NAW0hT4hY061xl99yi+\
-AGxJDjEuAtsSwZh3/k0YggqqHayVXWTaczH0iceQV/Er5XK4NguA+uSUf6/\
-Ndv7giPKRr1F8raAWDP/f7/oHpwNKhDTLcYR0VQJ6ZD1ZR2JhYZE+\
-uMfiSJlcpR3xQpfwVpHrQuQK6wBJgbJmRqDWuiNeQKtiikMSob/\
-SBIzUEbsjNQXqcLSvBOVgIpXkdqyiQiT4NyBS2IKb4REfcBxiDZSRANLneJmmUwitmLmDpZM0Ky0ou\
-aKk8ZBuCZkMfR0DAyQx8lMM4pUyMpKGKCag1BtAJy4SUnbyNKxAvXWcxFiS8AKRSXMU6wlCapIftUl\
-Wd/szmNlCyVhoXHE6pghIDkTi4X9ortM6H/+XSbMXwf/\
-62cbGtVSNk3Pc4sYptwgdFg4rTHhQnesMrYnqn51IW3uq/9enzw+\
-q9IkYmn2zs7GA9J9UeZM0CcZvJWV9FDaSkaA6+69U23w0gVg/\
-IA8tkdoGqjiltSXS2rp78JaU9gsmJ3AKOKX7UaGWZAQYwjGKSBwDunFyQaHvLCj03dKkp9T5LnN0ur\
-xKLszfFzRYk7jivOyMstNdZWmbxCQpw1aPZNwgET39R0QfHqXIsyLqijh0wPFgUnWsxI2gPh/\
-QNYMZjeDmuXb97GK7sh7PNeuHZFZW7dk+8SFZl0V6257xybxncJRjQS5sA/\
-4vnGT5YmWyFuY9BcyeyEJ20Zu97/\
-vFwXvuWfcdPDWaEGSnCK7Zcni1AkD4p49fVOlHihGkRWV7OhFKn0QF9T2xWKVYWWdWTiZG/\
-E73KeoDUciAXCRzrQ1FPGy1Phdbg4E6q98qh5CULy76KOMQ99GfGXWc6NK6VGk7OE6aFIPkRChjtOG\
-ltRPnlrwisurSwupZui1zZC0SMkYNR9lmQqCfoKIaNim4xGJdQsrklJIuIaukSYTLvOpkTKUgGrqYS\
-bMETgUzdlwmanxFltRjFHaU+qgQUHFH7I0SpHFK9pTFE5miFafst6iSNu+\
-JZM72cDRlPnUUO63Wz8RTlSsqU1EOF6Z0qGm1vB3Jg42MuHdwh33pYXQ5pK+\
-eox95uCMDGSlXR9SqJEGMilSC6MCBrr7pSGKpr1ROejpGUe6KnUac5P2551DBrSNCdMepNOm07dJ+\
-zYshOFeyzCgzrQbtvhpQr9xXdMfYxYiq2qoEpE6PruwAOdGGRDC4S1FxdsWPjGEr5Q/\
-WgBXDEoULdRSWsdvd2Ou+CMFveKpacSbPOajO0yjk0DrsxLhQ4SosH3/9+Ydiv/\
-d8feugLfb3ujvPe8+f4iMk31/b2dnaOWgtfe4/\
-zpGSHvWkkerKn1Xuwmc8sQUBZNE0oUUOO1LQdCZj8n/\
-qSuQRANivCi6uibgKhYfitylzvjB3NOyHzIxvwFETdqvw7y9oob69EQALUy6ojjABk1Jx2E91dOTyU\
-gz+tgRx+C5VulVjblBt9mV0BHAcuYa+WbjWDdsErIQcj1PcGFXzw9bh4aF/\
-2CLitDCz6IxRTtb2FwbHWJdUdc9YQpHyWCeoZrN+AnwUU7cxcvNFjoz2oTg83JxWI0d88kF9/+\
-SA2e6ZBHYAxEcCAcXQqJMCn4szG2if/oWvVovFtXYlTwq3ETYZ5uDy6cm3K+\
-IXYvrtyqeg2tvc3trZ7T7fvT6nasQ54iZh5YLjhb8MAaxBT1Ru1fZaQWqUY1UrX/\
-JBm0o76iBkSqRX4LZHLYxF0MyUePnpgwedB3cFcUagSjIX54AIHphoT/HlIbF++\
-Sm1Bgin6fQ6pKcCA07sfJM2XzDY6U8rfc27m51iwwn8KZV9lR7cGMsoVcXD0iQ3XTBQleQM2V1CR73\
-JqMEtXrnJD2vGW7jPcaIm9UaOC7f8c//YnepxWxeyGPWBAhHNINbf4qfu4c3KJeAJSIlIKST+G+d+\
-tXGcNRkR3FAtDKqgxY7YyqFCTr9J4yR1g4RsSlkhAwBa7pdJWixjjysJxKCCKvJSMe2ILmMdtzji6F\
-zmKcDqMtegis886cbZmJPSqQuExRQO9LSOpBRInyk1dk5mEzKG89exhh9A+\
-9hAU5iZJISTIYhmpKFGXzim1wQxjWpw5Inrt6lGAZaHqe7j4LGE1kHSOg5J8ZmtunJ6vyDNFAe3Wf8\
-igzjmdBqeHx4qBL2YYtkmpeJcTerHs0wo49glob0NXA+\
-Vgot3R7mepCqmFhNgGAwEDYvaVKZEIwVbzNuxLhg8SCKjeCaA/\
-KcL2yYuQo9dwWRLlJUUxgnyTtJUDRVVOxAjQyx3eFHSJlyTNAoiihuDxmSDapUj4sNxfDYKqJXuG2Q\
-oPy6jKpu4bb6dhz3fON7hGeqsEr1MXBt16Add44IGZQ/1eLZxqS4+G7tfvlBQRe+zTHD+\
-potDTTGHD66aOPz5yolhygqjZTJYR3ytJ1xj9ari1vHWsZw+frOQ//ZTyh69fP/Orw4ePhI3Pg/\
-Zd1ZRx9OAT6b7wdb22vNu71V3u/fq2dqL4EA86nx+\
-s8Vn7tEZtD0UBUbKovzbD3ZpOoRwaTVBzMEcwZrkzYdBm7bXYy+x/KX49XcBv/\
-wJ6EvwdHuXXwDt0gsg7A4a73J4x53OyndftgHakx7ktLx0+/\
-ZBq7VVFiTQIxE8gZvT3Qmmzqb9tCTHlGlVlbkEa6hMhzrRGAFqQOqaNMWoDeEl0hVJznNy8eC+\
-GChE/Rtf3BaubbopUk1zbBhpopLhaLZ35fZt/Jfbx27e5YZgwDwS7JArVunKG/\
-4O7iRjjlyRaytLY68HTrH3SbE53GQdZa8VrOQ6856v4mo8e3gYeKXcP5g/79vJrf7vkKH2X/\
-8gerCFPxfCbffvHHzfFi2BxgnFA4p3T50M4prF3+gkb4t6wN3cQENVt4lpbKpC9mavHmgH+\
-hCNjoLlPUABGbjtkOL19wdORw/mdLQfRLpvpK1v/YCgQO+hmndBR1BUF3Lbub+\
-risipi3xkHtlPKGmQRV8GHFxg35cBW3yQ0liQzZgYCr9HlJiomBIjreNlqkCFHVF1wJGaKQNAKdd80\
-F9OvdMu5zO4YRIh1oJxol3IimjoDlC612KShudcG1gun7hMpArFTUmJMdoPHtaPdeFclprNmNzLCu4\
-YiKl1fRAJ2OgwmKGYSJMzB8o2NAYt8EROJA3ordcTIXkEqCNLAs86o16WhKGIQ+mQKjQ5k4GSNsIX/\
-usjx3ccrFduV/GiKrlqRL4OqMB1Dh4MDEpRcv1ohMSucreKGxfB9wf7gTYIxMqbGSQf+\
-SOOx523wANmiWjwUXO5Q1yovmDtAaaKSqCK4wpxjAAXBHzpfJXmG/\
-utpdeBX16VaVSmZBTiup64Spiq/JhUKykdSSYSkF8t8cFA/PkP/ymCVfpIizd+\
-Rqv7AREMDn6OIs3Lt3IwY9t0nYDmTO5yZ0oC5wsacyO381zp3JnZBImPvK7EXXDcoDFCcqRXaxL0E9\
-AIhB9sOpBDXl2EriJTcUB+76dKvI0GSxR3Am9VXp1Xi/i5uHlALHygWPnidJaCgvdg+\
-RG3jHU8NnxZBDp9NNXkOxs6j3X+mGs47nWrl6auzFEy4ka5w8Y5I6/xlItF9Mo/I6Hd/u7LmR2/\
-IJw59iMuiedNMEalcpIQ/OBYK3fu3+vcE/\
-b3JfnmUZJqZxHU1TyXccJfTOfO3Xsrndun6XDEMDyX8CpxtBq6cgnNcfJO/ktSd8Py+87qcCsmQh+\
-cpVq0/4xtjlxzH+vml9DNb0tJrx2n++7ybXEjeFYLHNz8dsVvvtvc7G545mYS+FdN/6WRo/h/\
-gEs3Tf921Ih/cje4t3iDW7eeqamtdEFF0Wu4TJpS3uX4U33u5ugg2FctLSOXI0LSV7+xsUJS+\
-WX3d0/+Gz3acZ2TnX2vhiXB907E+6dFpN9WFZWUVKVUK/\
-MhrBacI8iLqt6lREn9Gw26SDQCPfRL6ajPDUBcz20RWOAU/HpFvGwhM0Kh7s02gI3VTuUwPKTkDD0/\
-1umgMKRZOlsTHUg1laLk+Jtw63mjY5du4WXL0htxiZqca/mq4pTHMkmrN5++DXNFBCh1Oh0xH8EQv+\
-pIKRqhNK6D7z8DOMqeDrt1MF5z+F8Iu/zz2rsZDPaUL21mC9/k9Pc+\
-z3ClWGfIiE1BtniyzOTnHezwbgdHGx4GB+MA7rRYFXDNaH/\
-gbokfmmFd0CAlvYJe0GZ29oqZcTB7J4vH/KcNvrNzo3ZWczUOf0OTVA3kEsvn6E/\
-Fmm4ZXqOXA92ZSK3qbcSuHIZX3KjwL1c0/mc="|>,
+   "If[x > 0, \"greater than zero\", \"less than or equal to zero\"]", 
+   "MessageTag" -> Inherited, "ChatData" -> 
+   "OEM6eJzNWstyHNUZjrGxrQnmkiKVCpXFoUMFDDNjaXSzFC41yJYRSFhRizjUWKAz3WdmGvX0af\
+p0WxqMq7Jgm1XYkFUq2+ySVR4iD5EssvUr5PvPpadHI0smOCEqStacy3/9/tsZ2j9p+\
+LW2UpHKeRII9fQ6j5WgtSKX6zIb8lxd2M0KWnqXK7GdyWGaqxnaxl4UNPyX1wY8X5NJLo7yNRHHOAJ\
+CKkr660US5JFMHnl8W6r85j0eF5yOnXj8xerxTKTT/\
+H9EJ25k0T2RfChz0ZXyoFTjBdp7D8rJbLQpkn4+WPspVm+\
+MEj6MgoqOVYLPr2fi80IkwWhbJDzOR9kfvqGfv73T8J/\
+dSIK4CIWlOXFvZosf7coDkaiJ5StbIuuLLZiE9/HLWvPpLRmK2L/ST/\
+PGfHOxkRdZVzb856CjAmsxzfqKP5CHW1ESDaMvRDjB4oe7YpiKjIOIyHr651+\
+48cyulLG6mfBujAvOJhd2Zbq9dg4i6O3eJXVhE9r0nlKXNje3aK19Eac+5EPhvxjKoBiKJNcO+\
+jSGbYsU/G5EKo35yJy5UT3DNu2ZCxuBTHrn1OUdfviuPBIKDLScMc8FFno/\
+MHz9F7dFpmTCJ8gQD6GCLErpk794S+RsQhaWkjVZT2bsjox7GR+\
+yTZ70C6wyNRp2oVkTmN3m2BE5OEAUp+eFnSIW/tPAgFDt82C1AXhlaUbnsP3CDRHDyLkIfYMD4f/\
+Y8nAsfM3BP1eHnu+JOPWv304EgyxDmYlHCsSUSCEPCLPuiAVyOOSq4V/\
+eAZcog4csNC6XgdCylPYJxgTsfe2y/W2gHWT2JyxiDO/M+jjuVIJnweB0d/\
+r2zBN159fnDNlpS036mLzrbMeTUFu3ydZlHMtDVqTMKMAQMkWcK3YY5QOWD45TMahlOUyBX6wPKNGh\
+XhHHLEp6OgHg3FlwARSy0XG4+Bf9PEOqczhotZnSC4xyFYVyTh/\
+4MZGs4Jrkk0OAMeqpCLhyaOh9yuN0wI+5/opzR9tsnuTzS9s80f4+\
+p2o2jdKnp9RL6zedUOsZ8vXNJNwRShYZwmdm/\
+ea7UT7kqaIEqkRG0momzrzqeaoucZQI1ISItsudi2uC7A2GF/2AI5PZnPiPd46h6s/\
+nPlKCJZQFecxiBykyciQsOqyGX2rmDg1IV7lshBCdgjItjDVBwwGLd2WRM/\
+JlTpSihAUDMYSNs1GdpYORigJVBynZzzg+\
+1tnAlIc641mOXzgoEzmkzw7FZ4AtSiDGWWCbIRjrk98JQzCBPaGtsotKeyqGXnIYcib+\
+VJgaLrNjgHppKr5vjk8+dkZ5wfUnrlcQxxz/l/NuYzqhBCizOo+\
+QrQpAj7zHy0zMFDzSBfeQHYgsEXGTfSwLRCtLZM4SgXWAJEdbMyZQWt0Qz2FVNsIljtRvLQEnNdnuQ\
+IyAOlztCkY1mEhFiUpFkLMI//WIFI5AM2zpC4ZDKIEyEoC7Gs/\
+jeAShhWZuYGkkHRYKlExTUtkkLSFTRh9TYIAkRn0KQdwaY0jSEMUIlDZ6sInJhFSdHA3F0G/\
+di0IscUQBG/LsIJSHSKlRclAnWY32JzBTueAhk1BxlFIGpAAi8fAvLNesnY7/C2TZs+D/\
+8snOhlqixMkpYfHaVFj4Bgv7FhMOVKcGQ+1QdE8upLU7ovvty+eztnwihw4/\
+2tk8hvTnbN0kS4LxEylZL/iVYsSoz/6WZpvMJhDrMerQDJmtJ/\
+Ipq82Q1dbNxhMy2huaHMMt4JT0o0YtGhJgCMdoInEN6MbNYwZ96phBzxdZPGXO85qjseUlCmH9+\
+ZgFSxIXTZSd0HYaVWa2SUyS0q9tkIybJKKj/\
+xbRR0QJiqyApiKdOhB4cKm4J9hrXnnfIzW9MQ3v6ql+\
+ffVsv2o7nurW58mt2rQnx8Tz5F0t0pOOjJcmI0NnOS3ImWPAfyNIGmcbU1thMlLA7AbPeRuz2WU3L/\
+bOm732U9jNJCFIjZBchw3/kgWA/\
+1dUSOB3AEHR1D6iBh5mmGiyuknUn8kuZXeNHErZoemOeIp8n2bRoyspIqhM8ritq9XQitpkdwYiAQo\
+zlkqUbFQ8zY6pgSzicJLVZ1S3NElqiVDrBlQlBCbUJrthqi8PUXaSEf0b2YasSBJBjwvcOoEgTnMUd\
+cC0JCfrkKIaSxIEnORO45FhTnybtdrP2S3IS80imtI8K4zvarWPbTGnOMp4oDt4Yx/\
+XAGSy6NNHZyT38GCu9HggTDV3ptFCZBA9QozqdFN2EwOOpa4QCcUzbJeblqOSrfT5xHGwTm8yHzNqz\
+LN4ZH1a8iLRJxuHMWVNq0K7K3o0sXYF6RiaSLU9jxWQ5i1S2cDlUGYkQgZdcsvZtCA8HIhMuIs9PaI\
+RzX6B9oH6erVaq70+Rshkv0BKQSZCcTeWwYFJbyHwo4oMxgZE0DDZ+S5D09LlwQG0OzBzYbX/Kfv+\
+Q7AiRMcwAqC4Wtvf33ebNSJOCxCpvXmn/\
+bFfYZSQuDZoiGMoC2rexiyhJL8nI6Bz2I2gYF7CSideph8WVtn+/\
+tbIvlzhL5cbOkd7mu0dikd0VLgnjmhUVAQ+mJystoku/\
+DdatVIs3bJZeWL4namon4DLK0eftNgbbPRJ6xVQ3djavr2z2/5w9+\
+UJU5voh3VjSgIAvFOGAqhCj1lc1J1VkGF5Kkrjc31RxVwNmuzmEUeWFqtsgyJZYU4aCnb3lZWV5soi\
+I84IyAhLxB8o03O3dBTv7hPru69Qh5kKoPhlSE91Cig04KLDZ7wPdEfWXpOYUyMcOFplnZh3Rbz3Ws\
+qDWOSrRRZdNWgWVvLazOuss0voKA9londNr1zVmyXj29DnXiQOy4Ma2Nfcvts2tzb0dOBrMcoLOUIS\
+qTW+pnfN5lUbEoiEHsInCUj8Rz4flc4x3tSI0H35sfcOWLHJbicwYShN5JY3Ka+\
+a7Pc68zUAYOVuEcV5A2dMZWE9C1UOtIyarK2xDi0OdHopEgzlitEYE/\
+VsgtEPprgb6qw6pYCfjxBAt8pUQJngAyFSE2QqImeYeHWFAwdomB9LQjjBdD0ckoUq40VKr80hTfy4\
+4gqH0ljux7KLi/c4rA6SynCI8leVHe5sJcHFbW1/\
+TOYYkJJHO0BP7yIfyFDh0hYVp0QcltvjVI6SZbLonU2olwTC5LuDRB7GIqRiCjD0eozeHJDjJL0nwB\
+eTfoRraQAVoQNJkAk9WiKBy1zVdYGUuv2BOwp0J7ihIW8kjUVfJKFOV0N+\
+YPEiuIqohKF2J1CWxmqiv9GrDMi4rg6IDzVRfDxRlkZ3cxaMHxaBHQLNMTcVwp+\
+PfCXQT3HjhuYCca20M3//\
+GSXmjaTTmt9bfYuhyaRgGQgVfSE6tRnvziCCrgMoS2yQgfsQGkWP19muPBhJSiybaDRk8o4GEZ1yj3\
+/GzoKDgExE06uz2gwYlM8SrPE2e/\
+NLT3drHn0IEAJtTdurPLLrrdkv367N7NVqt4ucRH0LJzT7gY7JmFxAUpHBdGN1hH40F4iW1tz15eYy\
+U58XVKoPolia3hSBPYgQCUb4s+\
+nMLS63mrPTdHTvkenK7kxiaFVsRT5LLKemV9PmXiBzV5rgjrcG7b29jlGM/\
+iBTeNC5duIxQ656TttmAbb5VcHp+WzUMcrXMal8UArsXf2k5Q4vVg8bDU88TAIvkcDOQ9Q6s/\
+8BXNpx/N1Rw35pNFg+rsG1ax+IkbK2WIYt7nvrRRzToxy4l3+\
+3E6QwnSYULa9JSqH00R2srJBUbtl8f+c+0daOSd1q/Nn2zt4DI+\
+L1aRHptxK5lfI6pLQrnbZSMoi0YJ2x4KS3R121zpA8oMSrW0USjUAP+\
+1KL3tUZSCdOU7mSPoJCPxOwuzUkSxjUvNAC2Fht2oDRLT4lRzHZV6JHIdcZbyIFKvtuByy879/+\
+sNIycLNwt6boZZc32XvUzVJYERz4PY5W27zguTqA9SgjSs1mk1m8s1+wq3t1dv8BftWY+fHGkRKWY+\
+ivARxhoDJhMTKzXr1p8G8ia0yMfu67MIPDbmmls/HCRwl9b/UBVArl0HuwVxXktn560+QnA2x/\
+sYmrlQhDgGHBIcFMwvreVqS/2O3sGS3xo5to1PyASoDsfobWDeh1CXxFY4e23mI0Ct/\
+WBzqWNEpUdEBdqQoielxXmGp0W6CdyBN1CGFYN4tEr1kmk5W9CVIT5qvGpJYXC+jAe2jSM3Nk4rj+\
+CtY4wY1LzlxTYVs5gTDJOX3N3eXdiFqkNV3Mp47Z78r1+v0HJWWz7L5jNHJ6d5O72n9+\
+LlPzHXJ5TUfllu46PKbRVkcFaWLnPv6ZnZ1dmJ1dXJhvzbWur5idBw/\
+2SnZsHcMofcnd2bn17pqMZdaZbS7OL7cWF1Zm51aWZpevL8zX2eOuzTXhc0fcPGEgzWpR77eWASP80\
+pK5v/FhG93KDpoAe6wButhbai7SwconR7atX8h3yEkTJiW0EarmZ4+\
+hyj3UdmgNBruj36RNvpdxiOxGI28i9EM1LfqSBh5fd7vvwOwn5fLptG0RCPbfCwJnv1/kORYagf8/\
+mICUYyN6E/\
+83hXdS9dX0HteOUzZxCJxzCOyQUVP6QhPp3AFkTpdtgsjGjWrRpr8nAELC21cbW5wdKUrltG6L8Hxr\
+zLC84di1iN3Dr37v7aCb9tjDr/8EyTW2TSOgu2q7/h8kXtCodhuaDrjdn6uzxdkHhqxBlvfwq6/\
+J5hj6MVcMU8tztxBoVWHYPmvNtubZ3PLq3MLqfMvzbm3teg9/\
+90f2BsPvlr59TA80ZNm0Fo8b4KY2VyVeWJqS+CS25TeO07x3HyepkHCYw+\
+hJXnczaGzeL1IKOm3P9SiJ1GAHsxiqtnUYoOY9tvEWlo4b7xQvLS1Yncc9odXbgmt+DC4DOoes+\
+WovvrBQx3AQihRDJcxBnYYeDCg6XFwsjClZ+\
+DtSNAN4fDZY6C5eX27MLy0tNhZWerzRvb7UaoTL3eWlpXnRXQnnvWpHof9nLv2u9s/\
+ffhPWalYDYV41aAxdxejaOXqbkmPfNENmsvlCZJQAms298aA5w51bK9Pmm3SfmfR6EgVPv3boFXo5w\
+qylJwO9u9fwn6kGtA8BQ6Ff9jDQ1myk7vK+mtlIMJJRb/ZvbhGY6w=="|>,
  GeneratedCell->True,
  CellAutoOverwrite->
-  True,ExpressionUUID->"cd04b288-a202-4506-bdc6-51365475e1a8"]
+  True,ExpressionUUID->"4d8ada48-ee0a-4a89-bc97-229693e47590"]
+}, Open  ]],
+
+Cell["", "SideChat",ExpressionUUID->"70e194aa-335a-4a42-8400-a2388ddd3c38"],
+
+Cell[BoxData[
+ RowBox[{"(*", " ", 
+  RowBox[{
+   RowBox[{"side", " ", "chat"}], ",", " ", 
+   RowBox[{"use", " ", "apostrophe", " ", "once", " ", 
+    RowBox[{"(", "chat", ")"}]}], ",", " ", 
+   RowBox[{"twice", " ", 
+    RowBox[{"(", 
+     RowBox[{"writes", " ", "code"}], ")"}]}], ",", " ", 
+   RowBox[{"thrice", " ", 
+    RowBox[{"(", 
+     RowBox[{"system", "/", "context"}], ")"}], " ", "to", " ", "access", " ",
+     "these", " ", "cell", " ", "types"}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.9011017535235476`*^9, 3.9011017763291764`*^9}, {
+  3.9011019161045895`*^9, 
+  3.9011019344704514`*^9}},ExpressionUUID->"b637bc14-5890-4586-be8c-\
+f4fa1f61164e"],
+
+Cell[CellGroupData[{
+
+Cell["You are a James Bond villain and have a cat on your lap.", \
+"ChatSystemInput",
+ CellDingbat->Cell[
+   BoxData[
+    TemplateBox[{}, "ChatInputCellDingbat"]], Background -> None],
+ CellChangeTimes->{{3.901101937099738*^9, 3.9011019528100204`*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"9dc6dad6-ed2b-4276-a667-e202f8000b5f"],
+
+Cell[TextData[Cell[BoxData[
+ TemplateBox[{
+   Cell[
+    BoxData[
+     DynamicModuleBox[{$CellContext`attached$$}, 
+      TagBox[
+       Cell[
+        BoxData[
+         RowBox[{"BondVillain", "[", 
+           RowBox[{"\"James\"", ",", "\"Bond\""}], "]"}]], "ChatCode", 
+        "Input", Background -> GrayLevel[1]], 
+       EventHandlerTag[{"MouseEntered" :> (Quiet[
+            Needs["Wolfram`Chatbook`" -> None]]; 
+          Symbol["Wolfram`Chatbook`ChatbookAction"]["AttachCodeButtons", 
+            Dynamic[$CellContext`attached$$], 
+            EvaluationCell[], "BondVillain[\"James\", \"Bond\"]", "Wolfram"]),
+          Method -> "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> 
+         True}]], DynamicModuleValues :> {}, 
+      TaggingRules -> <|
+       "CellToStringType" -> "InlineInteractiveCodeCell", "CodeLanguage" -> 
+        "Wolfram"|>, UnsavedVariables :> {$CellContext`attached$$}]]]},
+  "ChatCodeBlockTemplate"]], "ChatCodeBlock",
+ Background->
+  None,ExpressionUUID->"aa7df550-368f-4427-a712-f70e5c14025a"]], "ChatOutput",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{}, "ChatIconCodeWriter"], ContentPadding -> False, 
+     FrameMargins -> 0, ImageSize -> {35, 35}, ImageSizeAction -> 
+     "ShrinkToFit", Alignment -> {Center, Center}]], Background -> None],
+ TaggingRules-><|
+  "CellToStringData" -> "```\nBondVillain[\"James\", \"Bond\"]\n```", 
+   "MessageTag" -> Inherited, "ChatData" -> 
+   "OEM6eJzNWktzFNcVDgYDmhgbUk4lYXXpUDHCM4M0eiHFmBoEwjISKGrZxDXI1p3uOzNt9fRt9+\
+2WNMZUsvA2q3jjrFLZZpes8leySxbZ8hfynfuYh0ZIOCHlTFEz6vs459xzvvO6Tf0nFb9UVypSOU8C\
+oV5f4bESNFbkckVmXZ6rM1tZQUN3uBIbmeymuZqgacxFQcW/stzh+\
+bJMcnGQL4s4xhIQUlHSXimSII9k8sLlG1Ll9/Z4XHBaduTyt4eXZyId5/8jWnE3i/\
+ZE8lDmoinlbv8Yl2juAxxOZr01kbTzzvLPMHq3l/BuFAydcZjgxZVMfFGIJOhtiITHeS/7w7f0+\
+dvtiv/mahLERSgszZF9E+\
+v8YEvuikSNDF9YF1lbrEMlvI0vq83X12UoYv9CO80rM9W5Sl5kTVnx38IZFViLcdYX/I7cX4+\
+SqBt9KcIRFj/\
+cEt1UZBxERNbSn39hxxtbUsbqXsKbMTY4nZzZkunG8imIoKdb59SZNZym9Zo6t7a2TmP1s1j1kHeF/\
+3Yog6Irklwb6LMYui1S8LsbqTTmPbPm7vAatmbXnFkNZNI6pc5v8v078kAoMNByxjwXGGj9wPD1394\
+QmZIJHyFDPIQKsiilJ3/\
+uvsjZiCwsJW2ylszYYxm3Mt5lazxpFxhlqtdt4mRVYHaDY0bk4ABR3DnPbBax8F8HBoSqnwarVcArS\
+zNah+lLd0UMJeci9A0OhP9jy8Ox8DUH/1QZ5/xAxKl/81EiGGTpyky8UCCmRAp5QJg1eyyQ3S5XFf/\
+8JrhEGSxkoXG+\
+7wg1S2mHYEzA3tEm29kA2kFmZ0QjRvFOrS9jTiV4FnSON6dv17xSc35zypAd19Sojcm6Tnc8CbV2q2\
+xFxrHcZ0XKzAEYXKaIc8X2o7zD8s5hKga1LIcq8MXagBItahVxzKKkpQMA1p0EF0Ah6x2Gi3/\
+WzzOEOoeDWp0pPcAoVpEr5/\
+TAD4lkBdckXx0CjFKPRcCFfUPvMx6nHX7I9BecOepm8iibn9vgibb3KVWyYZSeXlOXV+\
+45oVYyxOt7SbgplCwyuM/Eyr07Ud7lqaIAqkRG0momTr3qImWXOEoEckJE0/2Zs8uC9A2GZ/\
+2AI5LZmPiP24dQ9edTHynBEoqCPGaxgxQpORIWHfaEX2nmDg0IV7mshBCdnDItjDZBwwGLN2WRM7Jl\
+TpSihAUd0YWOs16ZpZ2eigJVBinZzjgey6xj0kOZ8SzHFxbKRHbp2aH4BLBFCcQ4CWwTBGO98r/\
+CEFRgV2itbCHTHouhyw5DTsWfCZPDZXYIUJfH/PveYOVLR5RLrj5xtYI4ZPi/\
+nHYT4wElQJrVcYR0VQB6ZD3ej8RMwSJNcA/\
+ZrsgSEVfZJ7KAt7JE5iwRGAdIcpQ1AwJ9rRviObTKetjEEfqtJmCkKtvqiB5Qh61NwSgHE6koUakIc\
+hbhX4tIYQlOhim9wXAIJVBGAnCX43kc9yC00MwNLI2k3UKBkilKhibplJApo8cUGCCJkZ9CELfK6JI\
+0RDECpdUWdGIiIWUnR0Mx1Ft7UYghDi9gXZ7thnIfITVKdsskqzn9EcxULnjIJI7YSykCkgORePiF5\
+qql4/F/hjR7EvyvHG1sHEv0cXKMW1wbcwvfYGHHYsKB6lhnKO2L5tGJtPRYNL97+nzTpk/\
+E0O5Hm2uHkP6WzZukSTB+JSnrkj+\
+UjBjV2d9RbaPRBGK9RB6aILW1RD6mtQnS2oqZeEVKe1eTY9gFnNL5qFCLugQYwjGKSGwDurHzkEJfO\
+6TQ00UWj6nztOZodHmOXFg/\
+H9Jgn8RZ42VHlJ3mKBMbJCZJ6ZdWScY1EtHRv0X04VGCPCugrkiHDjgeTCr2BLvm9fd7dExvQMObPN\
+au75xsV63HY816kcyqVXu0T1wk62qRXrVnXB71DB3ltCAntgH/CyepnKxMrYVRTwGzuzzndfRm512/\
+2Dpr5uqvYTaThCDVQ3DtVvxzFgD+X5Ehgd8OBEVR+4IcuJ+ho8nKJlB/\
+LpsU3TVyKGSHpjriKeJ9mkUvzqTwoH6Qx26drbpW1Cp73BEJUJixVCJlI+Npdkx1ZBGHo6w+\
+p7ylSVJJhFzXoSwh0KFW2V2TfXmItJP06DeyBVmRJIIuF7g1AkGc+\
+iiqgGlIjuYhRTmWJAg4yZ3GPcOc+FZLpZ+z+5CXikUUpXlWGNuVSp/YZE5+lPFAV/\
+BGP64AyGTRpkenJHfxYLa0eCBMNneq0UJkED2Cj+\
+pw068mOhxDTSES8mfoLjclx1C00usTx8Eavcp89Kgxz+KetWmfF4k+\
+WjgMKGtaQ7SbokUda1PQGUPjqbbmsQJSv0VHNnDZlxmJkOEsueVsShAedkQm3MaWbtGIZrtA+\
+UB1vVoqla4PEDJaL9ChIBOhuBnLYNeEtxD4UUUGZQMiKJhsf5ehaGnyYBen2zV94XD906/\
+798GKEB1DCYDiUmlnZ8dNlog4DUCk+trj+if+EKOExLVOQxxDWVDxNmCJQ/I9GQGd3WaEA+\
+Z9WOnAy/TFwhLb2Vnv2Zsr/OViQ+\
+NgW7N9TP6Iigr7xAG1iorAB5WT1tZQhf9aH60vli7ZrDwx7M5U1E7A5erBpzX2Lut9WrsKqqvrG482\
+t+oPt66MqNp4P7QbUxAA4N1hyIGG6DGLi7LTCiIsT0Vf+\
+VxvVDFXnSq7d8ARpcUSWyVPVuiTuoI9ubq4WF2cY8QZDhlhiPgDZbrvlo7ikx1i/\
+eQqVZipAIqvQHrKU0ChARctPuF+oNmz+\
+hrFnOphwcESa8S8KeLtaykPYpEvFVk0adAsrOSlieussUXo6C/\
+KROuGHpnUk33Gj3CevUjs9xdqYN9w827a7FrV3YGvxehvyOGSCK3xDT1rJietS8ATWnCfJCDxX3h91\
+DeOsaZGhK7LD913QItV9iiBCkNpPLe/k+\
+KqiX7Xma8BAC03iyjOK1hjMgtrWahyoKVXZXWNdZxiV4eXIkFTrhi1MVHLBhh9YYq9oY6qYwfw8x4c\
+6H4/FFAkeCBEapxMRWQM468ucWABNfMDSQgn6K67XdLQUHuR0m1zSB0/\
+trjEoTSW27FsYuMeh9ZBUhkOUf6Oss2dzSTYuKH1j84cDVLyYgPo7l3kHRkqbFqn5JSI/\
+f70IJQjZZko+\
+ngNx0sCYeLdbiL3YxFSMgUYWi1Gdw6IcZLuE2CLUTvCtNSAitCBJMiEbi0RwGWuyjpBSl3+\
+wBwFqhPs0JA3ksaiLZJQh6su37V4EVxFlMKQuxMcltpqor/aGmqQsV3tEh8qovigo+\
+wr3fVZUH5YBLYJNMtcVwh7vvCWQF/FDQqaM8R1qJz5+08pMD8q8kZtbvsW+\
+1XB6eKl15ieW6hVp8qocR9EsTTlnDf5aW27VFpNGrX57aVbLMDCOtREdRS7xVCgkqN1hIq+\
+FI3ShPe4E0FPHSiKRET0buPASJi8zLbkbk9SUFpDkSKT2xqAtMpdHBobCQ4CMhFVr8xKE/U4ph/\
+w6d9ssMr77L2vPF3wefTgZCozb+ieXk9NffV+aWKb/\
+dKcYOHwCW7ceCB68BatiwXo4qm3UsQx3dCAe//vegI8a8woGl6W5E/06BYOjZBUbti8zHFPNLVp/\
+FgNnm0h5T0zIt4cF5G+lcitlDchpR1p1JWSQaQFawwEp3N7VGJpd+EBeaGuG0g0+\
+CgZiOq1poaj9iITxpI2MK97RvakBM+BQs11HVwIo1XaG5t0oz1FjBYZSFhkOmNN+IOylzjAwof+\
+o4dD+YObgSclRdd8vMo+oNKGyiqCA9/\
+jqLvMdY4LChiPMqJUrVaZR7rxttkv2OR2mT19hq8SMx9v0GKE/\
+Z7kYwBHGKiMaIzUrEfvGfx7yzQwIEafp55BKxnsvj50Nhj4KKGXGA9wpFB2vWfbw4I80vcwmvyog+\
+3MVbF1yMPgYBhwSDBtkd63Hum3fI1tc0p8dEWFBBBQPJDNz5HHgV4aJOwsauzQ1C1GfdEjvaBhSSNe\
+RbtUoqggoptWhRJX5whtRJ6ofQjDmmhzW1Vv26JtcXuE1Ij6hn1Sy4sBlGMtVGyZWTKyXL+\
+PM0ZwtbNT15jbDq2Am+Sc3nk2eTOifLmsI/vYMvviVI8/fdanbIbdCycjp/ckeaLt5+cyNS8U+\
+9u0V67rFOQxjbYyq01XMfMUP1NTU7NTU3OzM7Xp2s1FM/Ps2XafHVtBZ0JvPBub9+\
+8sy1hmjanq3MxCbW52cWp6cX5q4ebsTJm97Nh0FTZ3xE0/izCrRX1aWwCM8KUlc3/\
+jYQOpaxMZwS6rgC7m5qtztHDoyZGt6+vSTTLSiEoJbYSqmalDqHK3dg0ag8Ie6wtKE+9lHCK6Uf+\
+TCH1rSYO+pOrX16XPbaj9qFg+HrYtAsH+e0Hg1PeLPMdCI/D/BxOQcqBEb+\
+TVundU9tX0XlaPYzpxCJx2CGyQUlN6u4Vw7gAyrdM2QWT17nDSpr9HAELC2xbeJmdHikI5jdskPFMb\
+MOzvcOxqxO7517/3NlFaeez5N3+C5BrbphDQJZYd/w8CL2gMVxuaDrg9nS6zualnhqxBlvf8629I5+\
+gAUWR2U8tzqxBseg6KbbPaVG2GTS8sTc8uzdQ87/\
+76lvf8d39EL4vvmt596BwoyLLxU7ysg5vcPCzx7PyYxEex7b9+\
+Gue99TJBhYRDUU73s7qaQWHzYZGS02l9rkRJpDqbKMyRta3BADXvpZU3O39YecdYaX7WnnlQE9pzW3\
+DNDMBlQOeQNTNci8/OltkqGogUHQbUQZVGw7Pe4fxidkDJwt+\
+RmgUpj08Fs825mwuVmfn5ucrsYotXmjfna5VwobkwPz8jmovhjDdcUej/2aMvWf7522/\
+DUsmeQJgWl3qSJfQxjYP3KTi2TTFErUnCvhQZBYBqdXvQdUxwZ9ah1uM92s9MeD2KgqdbXz1C1whfF\
+Fx3Bnp2+8UdzW9MEXTtOppBdE4mM1GfxNHv5nB0ghF1iddoarLM8v2InnSfb45Gg51Mj9ou/\
+Ya7b5rUF1K2jkarAwb6fWUvFer6JHE+7vL4prvtRNVL91bsDoWEvSjWl4RU3Jo6HTU5ajr7oi/\
+mafUEVV6lExOtjw2phqfJkxJp1NPFYsV/YzgG+rBpKPTNGNRXssFti7fVxGrSETQe/hsJOFvz"|>,
+ GeneratedCell->True,
+ CellAutoOverwrite->
+  True,ExpressionUUID->"263ec235-5bfa-484d-8a30-7e60a1cc9797"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["What is your name?", "SideChat",
+ CellDingbat->Cell[
+   BoxData[
+    TemplateBox[{}, "ChatInputCellDingbat"]], Background -> None],
+ CellChangeTimes->{{3.9011019700714383`*^9, 3.9011019857680025`*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"36e4d7a7-1771-42f3-ab1a-9af54b49f427"],
+
+Cell["\<\
+I am an AI assistant programmed to help with Wolfram Language code. I don't \
+have a personal name. How can I assist you today?\
+\>", "ChatOutput",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{}, "ChatIconCodeWriter"], ContentPadding -> False, 
+     FrameMargins -> 0, ImageSize -> {35, 35}, ImageSizeAction -> 
+     "ShrinkToFit", Alignment -> {Center, Center}]], Background -> None],
+ TaggingRules-><|
+  "CellToStringData" -> 
+   "I am an AI assistant programmed to help with Wolfram Language code. I \
+don't have a personal name. How can I assist you today?", "MessageTag" -> 
+   Inherited, "ChatData" -> 
+   "OEM6eJy1WNtuG8kRjWz5IibatRcOgvip7RiwvSvRgAMDsYHAoHWxiVA2odFCWayzVnOmSM5qpn\
+vS3SOKQfIFec1L8gt5y1s+Jy/5jpzqnhmR1M2LdQRBwkx3V1WfOnWbzi/\
+Wo1bH2tQ6qWKy17ZlZonflU5va5NLZ5f3TMmvXklLfaPzwtkVXsZaGq9H9zbG0m1o5ejYbVCWYQsE2\
+VSNtksVu1Src7f3tXVbRzIrJW87c/ud2e2GitP6v+\
+AdmyY9IvVWOxpofdhc4zavvcHltJn2SI3ceOOXeLs5VTJP45k7zgq8tW3ojyWpeNonJTM3Nf/4O//\
+8++V69FlXxVmZUCWzUbSyI4/39CEpOydqdYfMiHYAhxzhT4XktR2dUBatjgq3/uv2s3VXmoFejz7H/\
+SzU0mm1q9FYT3ZSlebpnyiZU/\
+HTPcoLMhJCyAz9z39x4md7Wmd2S8lBhgO1mct7uuhvLMEEvzy8YZd7uMnwir3R6+\
+3wu8517Horc4ruJDouc1LOO+dDBlzLAvo2U1tkchr2bM7uEb1qz3I31mq4ZG/\
+uyskrfUwWCrydmXSEF8OfBL3RnT4Zq5WcE8M6yMYmLfgpevaanJizRRSMphhqI/\
+Z1NjQyFz2pRiXeCjvNB7hZG3ztS6yQgwaYUt9zebfMKLoG/\
+5PtXIWqLqhlCsP7sHx7kzKA7CiJAgco+nmlo1YReQ3R0hru+\
+YayIvrNO0UCtuTa0LkGCUsF7IFgMZiKWOe5tOvRzV1oSQ08VFHjZhMETytJB0xhJvWBd9lBH0yHmIM\
+5RALwNawf405L0sTji90ZVXs+qTv/\
+thTEnkZq3sfs3Ro7qRKPblts6yzTE1EWIlxAIGTKzFkxSd1YuPGilMBa4QAF/\
+ogRqMSbhmWWiVQNffBj32V0ARXMdJEu0fXIGaS5mgdPO8L6F4LzFIey4we5YFJluBf56RgQQL2QAau\
+TIO+DzIqxXHD9au2OTlg8y+c3+lJ5fy/ZVpVC+\
+emKvbu9VRu1bZCrt1SyS1aXBuGzsr31KnW5LCwnT0uGrfVKanjtLa4sWaoI9SDl5Wbl+\
+gYx3lB4PYolMlmVE//zcoFV/1z62pJQnAVlJrKaUgxyShU7qhv+\
+2Suv2YB05fR6AtM5KIsyoAkZNbHkQJdOsC8dS0qViMeUA2MzXRPFeGrT2K5BlB4Zicc1MQ6lYU1I4/\
+AHG7XSOT/XLL6EbKmCGZeRbYVp7Hf+KA4BgmqHR2UPVfZCDt2tOVRD/IFC/\
+dZmgVB3T8X31snOj84ot+vepO4TaMHx/7paL5xOKDHKrM8jjFUJ6rH3ZJOJhYVHBtCeiEMyirK2+\
+EaXiFahtBOK8B4kcWhpTgQ0qAfhDqiKKQ5JpP4KCTipLfbGNAXrcHRAgmswi0qVLSh2IsXvkEVhC26\
+GJX8gaEg0WMYGyLrGyyybwmjyygMtg6V5aSEpNCQzi3xL2GT4sQAH2GLUpwTCKzBytoYlppDUHQKTk\
+Am5OtUyrECvdZQmeCURBSKX5jDRE6TUVB2usa3h9mcos45kIjSuOC04A3IAsXn4D+\
+TarYv5v8zIXkb/e2c7G9eihicXhMWjU2ERBS4cVJyoSXVhMLQmNDi7kLb2afDDy+dnVflEDs2/\
+3u0tMP3zqm4yklD8SUrW7WimGAnusX8gbPPZBGZ9RB1aYdiG5E6htsKobYeFTwTaV16cwCnwlO/\
+HjVqaM2GYx2gicQzsxskFQK8sAHq1NNkpOK96jQHLGxzC/\
+nkBwUbE9RBlZ7Sd4SorfTaTrYxaXbaxxybW8n/L8hFRxJEV80TkUwcCDy6lIxKP7jfn7/M175/IuP/\
+4Qr8+vNyvHscL3XqL3eqhPTsmbrF3vUmfOjLuzkeGz3LekEvHgP9HkKxfDqZHYT5SoGxTOtnBbHazn\
+heHV8Na5wpWjWYG2SmSa74e3agIEP11tcPZeQxD0dSeUwMnBhONWQuJ+\
+ns94OzumcMpOwndkSyQ7wuTnl9JEUFNksdpX63yytS22B+TAguNKDRKNiqeVyfsWJdZMq/\
+qe65bXiS3RKh1Y64ShAm1LTZD9ZUJyo6a8v+0ashKpYg/LMjKCUxxnqO4A+\
+ZXer4OWa6xbEEs2e4imwblrLfdav1KvIa93CyiKXWmDL5rtb48uch8WWPAEV0M9iDT8WGIwgTXtKUx\
+usRNUNerMcSgtg5kfIjqfRjGl9ky3bSnE6hi4DMUeSD2onVwcFAvtlg4v2CT2H+\
+owJBNxzxaWDYWHmDceujafu91NIb4Eu9NSTAvSQxS6UjZF+LB8XdPxVdi+t3TB5Da3em/\
+293rvN27N3fnwBZcM2PSAKD6Igz4jDxRZdQ10entd76JBCJSFtSgIP1Bm0k7boutY4mopheiy5636K\
+tzEu8fPH/efv5MsGY4MMUr1o/w9XOariW+P2DV7x9wR1KQyab3YD3nNZEgBGOXee9fMk9i6g54+\
+fnPj5H8ZKfYcPxCfJvJAWV/eFTIOCP3ojTpY542DQAPlrdWvhTf7rGbmk2Ghk/8m8d+\
+sVH8Dvc5SmnSbByV6KOe1Ov1cjjV9d1k5M1oDjj0fgjF7IlfDYuPK26CkkMypGI2/\
+9zPDY1zgjc9I3wftzAfA8W2eKcAIfpeBOLMSY7DJlpOKYrcFF3ta74Zj24+\
+dH5HVITAtimDFgheJwRs4CFtWCVKMAv+xNSU53yTmbax4C+\
+ICU9yOFInBOs5N8r0AAePJNCBSBs0pO6hrZr2KkPgYN/jhIkLja86Hyg/\
+lZEb68Ti0A4nHUWTZnksUVkHxHGaJGEi2O/\
+heiqmkCAOlZ5gMOUkCacNh4JnSSQFzXMigmYeb7iABwtKamfGhvzIgBZFOwySnPi0L2sW8YyqgxOem\
+sHSjEakEp+9c3lY+ZWkTXk2QU5WuCyPSyy/O5wZfHDcHrIeLo7yZFJoQK/\
+7Z4CflHHV3IdtdbcPf547/flPLCeFapm1zpSpL/b9rGADZvz17eXJ5hVZD3kzJ/\
+7SFXAXcnenK5r1hjHBE1z15mb7+YqF2Qbwq4cueFGKInQRmTegLd7oia8OtQKffZxO5JQ/\
+oKLBaSbWqLUBeT4N41atqkDvyZFd6aox8fvkf2fySyE="|>,
+ GeneratedCell->True,
+ CellAutoOverwrite->
+  True,ExpressionUUID->"b26f8deb-19de-460a-afe1-a5abf5b53511"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["You are a James Bond villain and have a cat on your lap.", \
+"ChatSystemInput",
+ CellDingbat->Cell[
+   BoxData[
+    TemplateBox[{}, "ChatInputCellDingbat"]], Background -> None],
+ CellChangeTimes->{{3.9011019947283506`*^9, 3.9011019992011538`*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"e3fb2a45-5aa4-4aee-9f7f-7c4597463bb0"],
+
+Cell[TextData[Cell[BoxData[
+ TemplateBox[{
+   Cell[
+    BoxData[
+     DynamicModuleBox[{$CellContext`attached$$}, 
+      TagBox[
+       Cell[
+        BoxData[
+         RowBox[{
+           RowBox[{
+             RowBox[{"villainName", "=", "\"Dr. Evil\""}], ";"}], "\n", 
+           RowBox[{
+             RowBox[{"catName", "=", "\"Mr. Whiskers\""}], ";"}]}]], 
+        "ChatCode", "Input", Background -> GrayLevel[1]], 
+       EventHandlerTag[{"MouseEntered" :> (Quiet[
+            Needs["Wolfram`Chatbook`" -> None]]; 
+          Symbol["Wolfram`Chatbook`ChatbookAction"]["AttachCodeButtons", 
+            Dynamic[$CellContext`attached$$], 
+            EvaluationCell[], 
+            "villainName = \"Dr. Evil\";\ncatName = \"Mr. Whiskers\";", 
+            "Wolfram"]), Method -> "Preemptive", PassEventsDown -> Automatic, 
+         PassEventsUp -> True}]], DynamicModuleValues :> {}, 
+      TaggingRules -> <|
+       "CellToStringType" -> "InlineInteractiveCodeCell", "CodeLanguage" -> 
+        "Wolfram"|>, UnsavedVariables :> {$CellContext`attached$$}]]]},
+  "ChatCodeBlockTemplate"]], "ChatCodeBlock",
+ Background->
+  None,ExpressionUUID->"70308c41-0e2e-4dd6-81b0-446be9bccb3a"]], "ChatOutput",
+ CellDingbat->Cell[
+   BoxData[
+    PaneBox[
+     TemplateBox[{}, "ChatIconCodeWriter"], ContentPadding -> False, 
+     FrameMargins -> 0, ImageSize -> {35, 35}, ImageSizeAction -> 
+     "ShrinkToFit", Alignment -> {Center, Center}]], Background -> None],
+ TaggingRules-><|
+  "CellToStringData" -> 
+   "```Wolfram\nvillainName = \"Dr. Evil\";\ncatName = \"Mr. Whiskers\";\n\
+```", "MessageTag" -> Inherited, "ChatData" -> 
+   "OEM6eJzNWktzFNcVDgYDmhgbXHalwurSoWKENYM0eoBkY2qQEJYtgaKWTVxCtu5035lpq6dvu2\
++3pDGmkoW3WcUbZ5XKNrtklX+Qv5EssuUv5Dv30fOQkHBCypmiZtT3cc6553zndZvGz6p+\
+paFUpHKeBEK9usxjJWisyOWyzLo8V2c2s4KG7nIl1jPZTXM1RtOYi4Kqf2Wxw/\
+NFmeTiIF8UcYwlIKSipL1cJEEeyeS5y9elyu/t8bjgtOzI5W8NLs9Eepj/\
+m7RiKYv2RPJA5qIp5W55jEs09yEOJ7PeqkjaeWfx5xhd6iW8GwUDZxwkeHE5E18VIgl66yLhcd7L/\
+vA9ff52p+q/vpIEcREKS3No39gaP9iUuyJRQ8MX1kTWFmtQCW/jy2rz1TUZiti/\
+0E7z6nRttpoXWVNW/TdwRgXW4jDrC35H7q9FSdSNvhbhEIufbopuKjIOIiJr6c+/sOO1TSljdS/\
+hzRgbnE7ObMp0ffEURNDTrXPqzCpO03pFnVtdXaOxxlmsesC7wn8rlEHRFUmuDfRFDN0WKfgtRSqNe\
+c+sWRpcw1btmjMrgUxap9T5Db5/Vx4IBQZazpjnAgOtnxi+/\
+lvrIlMy4UNkiIdQQRal9OTP3hc5G5KFpaRN1pIZeyTjVsa7bJUn7QKjTPW6TZysBsyuc8yIHBwgijv\
+nmY0iFv6rwIBQjdNgtQJ4ZWlG6zB9aUnEUHIuQt/gQPhvWx6Oha85+\
+KcmcM4PRZz6tx4mgkGWrszEcwViSqSQB4RZs8cC2e1yVfXPb4BLlMFCFhrnS0eoW0o7BGMC9o422c4\
+60A4yO0MaMYp3an0RcyrBs6BzvDl9u+\
+almvO7U4bsYU0N25is63THk1Brt8aWZRzLfVakzByAwWWKOFdsP8o7LO+MUjGoZTlUgS/\
+WBpRoUauIYxYlLR0AsO4kuAAKWW8ULv5ZP88Q6hwO6g2m9ACjWEWunNMDHxHJCq5JvjwEGKUei4AL+\
+4beFzxOO3zE9BecORpm8iibn1vnibb3KVWxYZSeXlGXl+85oZYzxOt7SbghlCwyuM/\
+Y8r27Ud7lqaIAqkRG0momTr3qImWXOEoEckJE0+XM2UVB+gbDs37AEclsTPzHnRFU/\
+fnUJ0qwhKIgj1nsIEVKjoRFhz3hN5q5QwPCVS6rIUQnp0wLo03QcMDiTVnkjGyZE6UoYUFHdKHjrDf\
+B0k5PRYGaACnZzjgeJ1jHpIcJxrMcX1goE9mlZ4fiE8AWJRDjJLCNEYz1yv8KQ1CBXaG1solMeyyGL\
+jsMORV/IUwOl9kIoC4f8u97/ZUvHFEuufrE1QpixPB/\
+Oe0mDgeUAGlWxxHSVQHokfV4GYmZgkWa4B6yXZElIq6xz2QBb2WJzFkiMA6Q5Chr+\
+gRKrRviObTKetjEEfqtJmCkGtvsiB5Qh61NwSgHE6koUakIchbhX4tIYQlOhim9wXAIJVBGAnCX43k\
+c9yC00MwNLI2k3UKBkilKBibplJApo8cUGCCJkZ9CELfK6JI0RDECpZUWdGIiIWUnR0Mx1Ft7UYghD\
+i9gXZ7thnIfITVKdidIVnP6I5ipXPCQSRyxl1IEJAci8fALzdUqx+P/\
+DGn2JPhfOdrYOJYocXKMW1w75Ba+wcKOxYQD1bHOUNkXzaMTaeWRaP7w9Pm6TZ+\
+Iod1PNlZHkP6GzZukSTB+KSnrkj+\
+QjBjV2T9QbcPRBGK9QB4aI7W1RH5Ia2OktWUz8ZKU9q4mx7ALOKXzUaEWdQkwhGMUkdgGdGPniEJfG\
+VHo6SKLD6nztOZodHmOXFg/j2iwJHHWeNkRZac5ytg6iUlS+\
+pUVknGVRHT0bxN9eJQgzwqoK9KhA44Hk4o9wa555X6Pjun1aXjjx9r1nZPtqvV4rFkvklm1ao/\
+2iYtkXS3Sy/aMy8OeoaOcFuTENuB/\
+4STVk5WptTDsKWC2xHPeQG923vWLrYqZa7yC2UwSglQPwbVb9c9ZAPh/\
+RYYEfjsQFEXtc3LgfoaOJpswgfpL2aTorpFDITs01RFPEe/TLHp+JoUHlUEeu3W26lpRa+\
+xRRyRAYcZSiZSNjKfZMdWRRRwOs/qS8pYmSSURcl2HsoRAh1pjSyb78hBpJ+\
+nRb2QLsiJJBF0ucGsEgjj1UVQB05AczkOKcixJEHCSO417hjnxrVUqv2D3IS8ViyhK86wwtqtUPrPJ\
+nPwo44Gu4I1+XAGQyaJNj05J7uLBbGnxQJhs7lSjhcggegQf1eGmrCY6HENNIRLyZ+\
+guNyXHQLTS6xPHwRq9xnz0qDHP4p61acmLRB8uHPqUNa0B2k3Roo61KeiMofFUW/\
+NYAanfoiMbuOzLjETIcJbccjYlCA87IhNuY0u3aESzXaB8oLpeLVQq1/\
+sIGa4X6FCQiVDcjGWwa8JbCPyoIoOyAREUTLa/y1C0NHmwi9Ptmr5wsP4p6/\
+59sCJEx1ACoLhQ2dnZcZMVIk4DEKmx+qjxmT/\
+AKCFxrdMQx1AWVLz1WeKQfE9GQGe3GeGAeQkrHXiZvlhYYDs7az17c4W/XGzYOtjWbB+\
+RP6Kiwj5xQK2iIvBB5aS1VVThv9ZHK8XSJZuVJ4bdmYraCbhcPfi8zt5lvc/\
+rV0F1ZW394cZm48HmlSFVG++HdmMKAgC8Oww50AA9ZnEx4bSCCMtTUSqf640q5qpTY/\
+cOOKK0WGAr5MkKfVJXsMdX5+\
+dr87OMOMMhIwwRf6BM993SUXy8Q6wfX6UKMxVA8RVIT3kKKDTgosUn3A80e1Zfw5hTPSw4WGBbMW+\
+KePtayoNY5AtFFo0bNAsreWXsOtvaJHSUizLRuqFHxvVkyfghzrMXif1yoQb2DTfvps2uFd0d+\
+FqMckMOl0RojW/oWTM5bl0CntCC+yQBif/c66PSOMaaGhG6Lh+574AWa+xhAhWG0nhuuZPiqol+\
+15mvAQAtN4sozqtYYzILa1mocqClV2MNjXWcYleHlyJBU64YtTFRywYYfWGKvaGOqocO4Oc9OND9Mh\
+RQJPhYiNQ4mYrIGMZfXeLAAmrm+\
+5IQTtBdd7ukoYH2IqXb5pA6fmxxiUNpLLdj2cTGPQ6tg6QyHKL8HWWbO5tJsHFd6x+\
+dORqk5PkG0N27yDsyVNi0RskpEfvldD+\
+UI2WZKPpoFcdLAmHi3W4i92MRUjIFGFotRncOiHGS7hNgi2E7wrTUgIrQgSTIhG4tEcBlriZ0gpS6/\
+IE5ClQn2KEhbySNRVskoQ5XXb5r8SK4iiiFIXcnOCy11UR/pTXQIGO72iU+VETxfkdZKt31WVB+\
+WAS2CTTLXFcIez73lkBfxfULmjPEdaCc+\
+fvbFJhXkq36re2F2ywACBs4OZVGN27QtxJ5pfKwyGnBbWZHthpKySDSqtvylos43tRFcPUD5lFC18b\
+hAdlcZymqx4CICGqj6qCpD69tZpwmaUPDukNhjyuwE5+\
+wl0MwGEZrtDc2wU3bRQynNIRHTuWovnSE9pW9MoCJPvIfPhiIVtwMPK4oulTiNfYhJVJK4qRFvseR5\
+c3lgYMgxqOMKNVqNeaRbrxt9ks2vj3BnjzFV4WZj9cvaMOyAv4URhBK62VIY6RmPXqPrrl6W94iDfS\
+J0eeJt4oCTiYY9u7rQ2f9gU8SujL/\
+GEcKZdd7uj0oyEPd9Wvyvyq4YTA1e7Ne25mtYevHUSxNee59Xsc+b8Nq0RThet9apN8pbW2bU+\
+Kj8zfCTUDok80vkTUQWRx25jV2aOo2oyr8oV6wZUnDO6JdSogqiOheT6Gg0hFJG5Enah/\
+CsCaaqlbN27Zom98eIjWkPrRC5d2WlhcDSP4t1AeZWTK0XL/\
+9MUZwlZpTlzfwMmd0hbcpc05v2Jq8GVF0XtRx5NAy+5pOjz95WlI2w+\
+71hpHTe5w81vbzc5ma11flNo+6ljUd8Dym0TbB6lM1zDzBz+\
+Tk5Mzk5OzMdH2qfmvezDx9ul2yY8uog+n92tbG/\
+buLMpbZ1mRtdvpmfXZmfnJqfm7y5q2Z6Qn2omNTNdjcETfdU/S10KI+qd8EjPClJXN/\
+42EdgXID8ccuq4Iu5uZqs7Rw4MmRbejLuQ0y0pBKCW2EqunJEVS5O6ItGoPCHunrMGWuuuIQOZGq7U\
+ToOzIa9CXVWr5OtHeg9kHcEMv3vzlk/\
+8lvPrAIBPsfBYGTPy7yHAuNwP8fTEDKvhK9oRe5dKojlFhhL6zHQzpxCJxyCNwipab0LgXh3AFkCgB\
+54hFEVpZIiDIP4u8hgJDwtmH0jNkcKQrlNO49NQzrfYblDseuTuyefft7bwOJ3GPPvvsTJNfYJjKLJ\
+qHb8f8g8IJGI0GtpiGrDB1wezI1wWYnnxqyBlnes2+/\
+I52j30BJ000tz81CsKlZKLbN6pP1aTZ1c2FqZmG67nn31za9Z7/7IzonfNf17pFzoP7MDp/\
+iRR3c5OZBiWfmDkl8FNvyZcdh3psvElRIOJSAdBuoqxkUNh8VKTmd1udylESqs4EyEFnbGgxQ815Ye\
+TNzo8o7xkpzM/bMi5JqfFpgz23BNd0HlwGdQ9Y0kFWWCjMzE2wF5WqKehbqoEpjy7Pe4fxipk/Jwt+\
+RmgEpj08GM83ZWzer03Nzs9WZ+RavNm/N1avhzebNublp0ZwPp73BikL/PxLd0v/zt9+\
+HlYo9gTANFVXAaHxbWwcfUHBsm2KICuGEfS0yCgC12na/xh3jzqwDhe77tJ+\
+Z8HoUBU83WnqEmtavCq5fYOvZ7efXz78xRdC162g9UKebzERVOUd3lcPRCUbUk1yjqfEJlu9H9KS7S\
+nM0GuxketT2hDfc7ca4vv6wdXRH0OWNfjvWS4W6Pk6cj7uqvOXu1lD10i0Ju0shYS+\
+K9ZUUFbemTkdNjprOvlaKeVo7QZXvgq9t2ypE8lNDccvTXEiXNOptD8s3qrk3nXdrtnSNc+\
+cEvk9XGBpFGKixwsr5slc1Hkj3skNvn4fvVGtsBS1H8k7ujp6ae+5YC4B2QO7rDsUx0C1HLkPeu/\
+NjaPrugKYtNbraRz3kLWXoejDmvVcBUTe6ltHFcKR2qbx/jwxQ9V8bzEU+fCsU+\
+j4MxqjYJLPJ22psJekIGg//DbBSXwE="|>,
+ GeneratedCell->True,
+ CellAutoOverwrite->
+  True,ExpressionUUID->"e02a3698-5b74-4e8a-bea3-dbeb73aa7056"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{
+   "ok", " ", "not", " ", "what", " ", "I", " ", "was", " ", "expecting"}], 
+   ",", " ", 
+   RowBox[{
+   "but", " ", "mr", " ", "whiskers", " ", "is", " ", "cute", 
+    "*"}]}]}]], "Input",
+ CellChangeTimes->{{3.901102009601047*^9, 
+  3.901102022181574*^9}},ExpressionUUID->"2069a174-943c-4147-a2e0-\
+1fc2641401a0"],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"incidentally", ":", " ", 
+   RowBox[{"chat", "-", 
+    RowBox[{
+    "driven", " ", "NB", " ", "is", " ", "one", " ", "where", " ", "every", 
+     " ", "cell", " ", "is", " ", "a", " ", "chat", " ", "input", " ", 
+     "cell"}]}]}], "*)"}]], "Input",
+ CellChangeTimes->{{3.901102109215336*^9, 
+  3.901102126014427*^9}},ExpressionUUID->"21041ef0-235d-4107-956f-\
+3c658da1f7c5"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{582, 655.5},
-WindowMargins->{{-953, Automatic}, {Automatic, -314.5}},
+WindowMargins->{{-1233.5, Automatic}, {Automatic, -293}},
+TaggingRules-><|
+ "ChatNotebookSettings" -> <|
+   "LLMEvaluator" -> "CodeWriter", "Assistance" -> False|>|>,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (June 3, 2023)",
 StyleDefinitions->"Chatbook.nb",
 ExpressionUUID->"95e81c73-095b-4e0a-9662-3f06b871c49f"
@@ -1663,9 +3942,57 @@ Cell[24266, 553, 402, 7, 52, "Output",ExpressionUUID->"9623b7de-3388-4d2f-906e-0
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[24705, 565, 146, 2, 28, "Input",ExpressionUUID->"da6079a7-19cb-4654-a75a-65a58e6163ad"],
-Cell[24854, 569, 50910, 913, 357, "Output",ExpressionUUID->"7354766d-c287-44eb-a7b3-4b257d2a522b"],
-Cell[75767, 1484, 6420, 108, 0, "AssistantOutput",ExpressionUUID->"cd04b288-a202-4506-bdc6-51365475e1a8",
- CellOpen->False]
+Cell[24854, 569, 50758, 910, 357, "Output",ExpressionUUID->"7354766d-c287-44eb-a7b3-4b257d2a522b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[75649, 1484, 159, 3, 67, "Section",ExpressionUUID->"c6f13028-7692-4cc6-ac27-c545d2fb5072"],
+Cell[CellGroupData[{
+Cell[75833, 1491, 246, 6, 67, "Input",ExpressionUUID->"ee946eeb-5ac9-4191-9afd-e115efba6c6c"],
+Cell[76082, 1499, 9268, 177, 63, "Output",ExpressionUUID->"ab09cc88-9d0e-423e-9b96-1e7b57214064"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[85387, 1681, 404, 10, 67, "Input",ExpressionUUID->"0c606063-0f71-4982-a2db-b107f330c04a"],
+Cell[85794, 1693, 83476, 1523, 140, "Output",ExpressionUUID->"5d4c3826-ff22-4ed9-bb03-ff7ff48946c6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[169307, 3221, 153, 2, 28, "Input",ExpressionUUID->"c09e7c15-9016-41b2-b2ff-dd66ae8fcac2"],
+Cell[169463, 3225, 335, 6, 32, "Output",ExpressionUUID->"36bfd6b4-0a42-4055-a7b3-5953da7b7a37"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[169835, 3236, 151, 2, 28, "Input",ExpressionUUID->"a36d6d06-b4a7-497f-a442-1bdaa68001a7"],
+Cell[169989, 3240, 3828, 90, 300, "Output",ExpressionUUID->"d81072ff-bd0e-4fc7-bb14-3b7942d352e2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[173854, 3335, 148, 2, 28, "Input",ExpressionUUID->"feff66fb-bcfa-4b68-b5b4-49e198bea1bc"],
+Cell[174005, 3339, 506, 11, 47, "Output",ExpressionUUID->"f4cfce84-484d-48ca-b8cd-2c5fd4d4dd79"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[174548, 3355, 149, 2, 28, "Input",ExpressionUUID->"743e12b1-6844-4e52-b002-c1f821fd6dc3"],
+Cell[174700, 3359, 192, 2, 32, "Output",ExpressionUUID->"e3bbcb06-6249-4480-98d6-75668d7b8aa2"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[174941, 3367, 182, 3, 67, "Section",ExpressionUUID->"020026b1-8d5e-466c-a0a3-8ee318bf8f5f"],
+Cell[CellGroupData[{
+Cell[175148, 3374, 321, 5, 57, "ChatInput",ExpressionUUID->"d3b6d7bf-488c-4033-ae65-8d347154d2fd"],
+Cell[175472, 3381, 5869, 98, 67, "ChatOutput",ExpressionUUID->"4d8ada48-ee0a-4a89-bc97-229693e47590"]
+}, Open  ]],
+Cell[181356, 3482, 75, 0, 54, "SideChat",ExpressionUUID->"70e194aa-335a-4a42-8400-a2388ddd3c38"],
+Cell[181434, 3484, 663, 16, 48, "Input",ExpressionUUID->"b637bc14-5890-4586-be8c-f4fa1f61164e"],
+Cell[CellGroupData[{
+Cell[182122, 3504, 331, 6, 55, "ChatSystemInput",ExpressionUUID->"9dc6dad6-ed2b-4276-a667-e202f8000b5f"],
+Cell[182456, 3512, 6831, 118, 87, "ChatOutput",ExpressionUUID->"263ec235-5bfa-484d-8a30-7e60a1cc9797"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[189324, 3635, 286, 5, 54, "SideChat",ExpressionUUID->"36e4d7a7-1771-42f3-ab1a-9af54b49f427"],
+Cell[189613, 3642, 3939, 66, 101, "ChatOutput",ExpressionUUID->"b26f8deb-19de-460a-afe1-a5abf5b53511"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[193589, 3713, 333, 6, 55, "ChatSystemInput",ExpressionUUID->"e3fb2a45-5aa4-4aee-9f7f-7c4597463bb0"],
+Cell[193925, 3721, 6951, 121, 108, "ChatOutput",ExpressionUUID->"e02a3698-5b74-4e8a-bea3-dbeb73aa7056"]
+}, Open  ]],
+Cell[200891, 3845, 369, 11, 28, "Input",ExpressionUUID->"2069a174-943c-4147-a2e0-1fc2641401a0"],
+Cell[201263, 3858, 416, 10, 48, "Input",ExpressionUUID->"21041ef0-235d-4107-956f-3c658da1f7c5"]
 }, Open  ]]
 }, Open  ]]
 }
